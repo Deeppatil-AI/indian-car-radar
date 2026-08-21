@@ -1,5 +1,5 @@
 ﻿"""
-FastAPI Server for Indian Car Classifier with robust feedback handling.
+FastAPI Server for Indian Car Classifier with CarDekho/CarWale automotive telemetry.
 """
 
 import os
@@ -42,6 +42,10 @@ cars_ds_train = Path("Cars Dataset/train")
 if cars_ds_train.exists():
     app.mount("/cars_dataset_images", StaticFiles(directory=str(cars_ds_train)), name="cars_dataset_images")
 
+cars_ds_test = Path("Cars Dataset/test")
+if cars_ds_test.exists():
+    app.mount("/cars_dataset_test", StaticFiles(directory=str(cars_ds_test)), name="cars_dataset_test")
+
 user_feedback_dir = Path("data/user_feedback_exemplars")
 user_feedback_dir.mkdir(parents=True, exist_ok=True)
 app.mount("/feedback_images", StaticFiles(directory=str(user_feedback_dir)), name="feedback_images")
@@ -73,6 +77,11 @@ def decode_image_payload(image_data: str) -> Image.Image:
         local_path = Path("Cars Dataset/train") / rel_path
         if local_path.exists():
             return Image.open(local_path).convert("RGB")
+    elif image_data.startswith("/cars_dataset_test/"):
+        rel_path = image_data.replace("/cars_dataset_test/", "")
+        local_path = Path("Cars Dataset/test") / rel_path
+        if local_path.exists():
+            return Image.open(local_path).convert("RGB")
     elif image_data.startswith("/feedback_images/"):
         rel_path = image_data.replace("/feedback_images/", "")
         local_path = Path("data/user_feedback_exemplars") / rel_path
@@ -92,7 +101,6 @@ def decode_image_payload(image_data: str) -> Image.Image:
             image_bytes = base64.b64decode(image_data)
             return Image.open(io.BytesIO(image_bytes)).convert("RGB")
         except Exception:
-            # Fallback blank image
             return Image.new("RGB", (224, 224), color=(128, 128, 128))
 
 
@@ -130,6 +138,9 @@ async def get_classes():
                 "model": str(c["model"]),
                 "full_name": str(c["full_name"]),
                 "image_url": str(c["image_url"]),
+                "body_type": str(c.get("body_type", "Automobile")),
+                "seating_capacity": str(c.get("seating_capacity", "5-Seater")),
+                "fuel_options": str(c.get("fuel_options", "Petrol / Diesel")),
                 "catalog_idx": int(c.get("catalog_idx", idx))
             }
             for idx, c in enumerate(engine.catalog)
@@ -161,7 +172,8 @@ async def get_samples():
                     "make": str(car["make"]),
                     "model": str(car["model"]),
                     "full_name": str(car["full_name"]),
-                    "image_url": str(car["image_url"])
+                    "image_url": str(car["image_url"]),
+                    "body_type": str(car.get("body_type", "Automobile"))
                 })
                 break
         if len(selected) >= 18:
@@ -197,8 +209,11 @@ async def predict_car(req: PredictRequest):
         "car_info": {
             "make": str(best["make"]),
             "model": str(best["model"]),
-            "generation": str(best["year_span"]),
-            "year_span": str(best["year_span"]),
+            "full_name": str(best["full_name"]),
+            "body_type": str(best.get("body_type", "Automobile")),
+            "seating_capacity": str(best.get("seating_capacity", "5-Seater")),
+            "fuel_options": str(best.get("fuel_options", "Petrol / Diesel")),
+            "powertrain_type": str(best.get("powertrain_type", "ICE")),
             "reference_image_url": str(best["image_url"]),
             "catalog_idx": int(best["catalog_idx"])
         },
@@ -207,7 +222,7 @@ async def predict_car(req: PredictRequest):
             {
                 "make": str(c["make"]),
                 "model": str(c["model"]),
-                "year_span": str(c["year_span"]),
+                "body_type": str(c.get("body_type", "Automobile")),
                 "confidence": float(c["confidence"]),
                 "similarity_pct": float(c["similarity_pct"]),
                 "image_url": str(c["image_url"]),

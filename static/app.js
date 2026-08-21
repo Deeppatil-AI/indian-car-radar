@@ -297,6 +297,14 @@ function renderResults(data) {
     const car = data.car_info;
     document.getElementById('resMakeModel').textContent = `${car.make.toUpperCase()} ${car.model.toUpperCase()}`;
     
+    // Populate CarDekho/CarWale automotive telemetry specs
+    const bodyEl = document.getElementById('resBodyStyle');
+    const seatEl = document.getElementById('resSeating');
+    const fuelEl = document.getElementById('resFuel');
+    if (bodyEl) bodyEl.textContent = car.body_type || 'Automobile';
+    if (seatEl) seatEl.textContent = car.seating_capacity || '5-Seater';
+    if (fuelEl) fuelEl.textContent = car.fuel_options || 'Petrol / Diesel';
+
     const confPct = (data.confidence * 100).toFixed(1);
     document.getElementById('resConfidence').textContent = `${confPct}%`;
     document.getElementById('confBar').style.width = `${Math.min(100, Math.max(10, confPct))}%`;
@@ -322,7 +330,7 @@ function renderResults(data) {
             <img src="${rank.image_url}" style="width: 75px; height: 50px; object-fit: cover; border: 1px solid #555; border-radius: 2px;" alt="${rank.model}">
             <div style="flex: 1;">
                 <div style="font-weight: bold; font-size: 14px; color: #fff;">${rank.make} ${rank.model}</div>
-                <div style="font-size: 10px; color: #888;">CLICK TO SELECT THIS MODEL</div>
+                <div style="font-size: 10px; color: #888;">${rank.body_type || 'Automobile'} // CLICK TO SELECT</div>
             </div>
             <div style="font-family: var(--font-pixel); font-size: 11px; color: #fff;">${(rank.confidence * 100).toFixed(1)}%</div>
         `;
@@ -434,7 +442,7 @@ function populateCorrectionDropdown(cars, filterQuery = '') {
     filtered.forEach(car => {
         const opt = document.createElement('option');
         opt.value = typeof car.catalog_idx !== 'undefined' ? car.catalog_idx : 0;
-        opt.textContent = `${car.make} ${car.model}`;
+        opt.textContent = `${car.make} ${car.model} (${car.body_type || 'Auto'})`;
         select.appendChild(opt);
     });
 }
@@ -515,7 +523,8 @@ function renderCodexGrid(cars) {
         card.innerHTML = `
             <img src="${car.image_url}" style="width: 100%; height: 140px; object-fit: cover; border-bottom: 1px solid #282838; margin-bottom: 10px; border-radius: 2px;" alt="${car.model}">
             <div class="codex-title" style="font-size: 14px;">${car.make.toUpperCase()} // ${car.model.toUpperCase()}</div>
-            <button class="retro-btn btn-small" style="width: 100%; margin-top: 10px;">&gt; SCAN THIS CAR &lt;</button>
+            <div style="font-size: 10px; color: #00f0ff; margin-bottom: 8px;">${car.body_type} • ${car.seating_capacity}</div>
+            <button class="retro-btn btn-small" style="width: 100%;">&gt; SCAN THIS CAR &lt;</button>
         `;
         card.onclick = () => {
             stopWebcam();
@@ -546,7 +555,8 @@ function initCodexSearch() {
         const filtered = allCodexCars.filter(car => 
             car.full_name.toLowerCase().includes(query) || 
             car.make.toLowerCase().includes(query) ||
-            car.model.toLowerCase().includes(query)
+            car.model.toLowerCase().includes(query) ||
+            (car.body_type && car.body_type.toLowerCase().includes(query))
         );
         renderCodexGrid(filtered);
     });

@@ -11,7 +11,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\1622880534_bugatti-la-voiture-noire-definitive.jpg"
     ],
-    "catalog_idx": 0
+    "catalog_idx": 0,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0001",
@@ -25,7 +30,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\2021-Bentley-Continental-GT-Mulliner.jpg"
     ],
-    "catalog_idx": 1
+    "catalog_idx": 1,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0002",
@@ -39,7 +49,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Alto 800.jpg"
     ],
-    "catalog_idx": 2
+    "catalog_idx": 2,
+    "body_type": "Hatchback",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / CNG / Electric",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Hatchback)"
   },
   {
     "id": "car_0003",
@@ -53,7 +68,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Aston Martin DB11.jpg"
     ],
-    "catalog_idx": 3
+    "catalog_idx": 3,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0004",
@@ -67,7 +87,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Aston Martin DBX.jpg"
     ],
-    "catalog_idx": 4
+    "catalog_idx": 4,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0005",
@@ -81,7 +106,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Aston Martin Vantage.jpg"
     ],
-    "catalog_idx": 5
+    "catalog_idx": 5,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0006",
@@ -95,7 +125,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Audi A4.jpg"
     ],
-    "catalog_idx": 6
+    "catalog_idx": 6,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0007",
@@ -109,7 +144,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Audi A6.jpg"
     ],
-    "catalog_idx": 7
+    "catalog_idx": 7,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0008",
@@ -123,7 +163,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Audi A8 L.jpg"
     ],
-    "catalog_idx": 8
+    "catalog_idx": 8,
+    "body_type": "Ultra-Luxury Flagship",
+    "seating_capacity": "4-Seater Executive",
+    "fuel_options": "Twin-Turbo V12 / Hybrid",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Ultra-Luxury Flagship)"
   },
   {
     "id": "car_0009",
@@ -137,7 +182,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Audi e-tron GT.jpg"
     ],
-    "catalog_idx": 9
+    "catalog_idx": 9,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0010",
@@ -151,7 +201,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Audi e-tron Sportback.jpg"
     ],
-    "catalog_idx": 10
+    "catalog_idx": 10,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0011",
@@ -165,7 +220,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Audi e-tron.jpg"
     ],
-    "catalog_idx": 11
+    "catalog_idx": 11,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0012",
@@ -179,7 +239,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Audi Q3 Sportback.jpg"
     ],
-    "catalog_idx": 12
+    "catalog_idx": 12,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0013",
@@ -193,7 +258,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Audi Q3.jpg"
     ],
-    "catalog_idx": 13
+    "catalog_idx": 13,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0014",
@@ -207,7 +277,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Audi Q5.jpg"
     ],
-    "catalog_idx": 14
+    "catalog_idx": 14,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0015",
@@ -221,7 +296,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Audi Q7.jpg"
     ],
-    "catalog_idx": 15
+    "catalog_idx": 15,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0016",
@@ -235,7 +315,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Audi Q8 e-tron.jpg"
     ],
-    "catalog_idx": 16
+    "catalog_idx": 16,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0017",
@@ -249,7 +334,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Audi Q8.jpg"
     ],
-    "catalog_idx": 17
+    "catalog_idx": 17,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0018",
@@ -263,7 +353,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Audi RS Q8.jpg"
     ],
-    "catalog_idx": 18
+    "catalog_idx": 18,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0019",
@@ -277,7 +372,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Audi RS5.jpg"
     ],
-    "catalog_idx": 19
+    "catalog_idx": 19,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0020",
@@ -291,7 +391,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Audi S5 Sportback.jpg"
     ],
-    "catalog_idx": 20
+    "catalog_idx": 20,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0021",
@@ -305,7 +410,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Baleno.jpg"
     ],
-    "catalog_idx": 21
+    "catalog_idx": 21,
+    "body_type": "Hatchback",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / CNG / Electric",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Hatchback)"
   },
   {
     "id": "car_0022",
@@ -319,7 +429,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Bentley Bentayga.jpg"
     ],
-    "catalog_idx": 22
+    "catalog_idx": 22,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0023",
@@ -333,7 +448,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW 2 Series Gran Coupe.jpg"
     ],
-    "catalog_idx": 23
+    "catalog_idx": 23,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0024",
@@ -347,7 +467,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW 3 Series Gran Limousine.jpg"
     ],
-    "catalog_idx": 24
+    "catalog_idx": 24,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0025",
@@ -361,7 +486,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW 5 Series.jpg"
     ],
-    "catalog_idx": 25
+    "catalog_idx": 25,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0026",
@@ -375,7 +505,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW 6 Series GT.jpg"
     ],
-    "catalog_idx": 26
+    "catalog_idx": 26,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0027",
@@ -389,7 +524,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW 7 Series.jpg"
     ],
-    "catalog_idx": 27
+    "catalog_idx": 27,
+    "body_type": "Ultra-Luxury Flagship",
+    "seating_capacity": "4-Seater Executive",
+    "fuel_options": "Twin-Turbo V12 / Hybrid",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Ultra-Luxury Flagship)"
   },
   {
     "id": "car_0028",
@@ -403,7 +543,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW i4.jpg"
     ],
-    "catalog_idx": 28
+    "catalog_idx": 28,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0029",
@@ -417,7 +562,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW i7.jpg"
     ],
-    "catalog_idx": 29
+    "catalog_idx": 29,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0030",
@@ -431,7 +581,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW iX.jpg"
     ],
-    "catalog_idx": 30
+    "catalog_idx": 30,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0031",
@@ -445,7 +600,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW M2.jpg"
     ],
-    "catalog_idx": 31
+    "catalog_idx": 31,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0032",
@@ -459,7 +619,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW M340i.jpg"
     ],
-    "catalog_idx": 32
+    "catalog_idx": 32,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0033",
@@ -473,7 +638,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW M4 Competition.jpg"
     ],
-    "catalog_idx": 33
+    "catalog_idx": 33,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0034",
@@ -487,7 +657,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW M8.jpg"
     ],
-    "catalog_idx": 34
+    "catalog_idx": 34,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0035",
@@ -501,7 +676,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW X1.jpg"
     ],
-    "catalog_idx": 35
+    "catalog_idx": 35,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0036",
@@ -515,7 +695,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW X3 M40i.jpg"
     ],
-    "catalog_idx": 36
+    "catalog_idx": 36,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0037",
@@ -529,7 +714,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW X3.jpg"
     ],
-    "catalog_idx": 37
+    "catalog_idx": 37,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0038",
@@ -543,7 +733,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW X5 M.jpg"
     ],
-    "catalog_idx": 38
+    "catalog_idx": 38,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0039",
@@ -557,7 +752,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW X5.jpg"
     ],
-    "catalog_idx": 39
+    "catalog_idx": 39,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0040",
@@ -571,7 +771,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW X7.jpg"
     ],
-    "catalog_idx": 40
+    "catalog_idx": 40,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0041",
@@ -585,7 +790,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW XM.jpg"
     ],
-    "catalog_idx": 41
+    "catalog_idx": 41,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0042",
@@ -599,7 +809,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BMW Z4.jpg"
     ],
-    "catalog_idx": 42
+    "catalog_idx": 42,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0043",
@@ -614,7 +829,12 @@
       "Indian Car Recommendation System\\All car images\\bugatti veyron.jpeg",
       "Indian Car Recommendation System\\All car images\\bugatti veyron.jpg"
     ],
-    "catalog_idx": 43
+    "catalog_idx": 43,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0044",
@@ -628,7 +848,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Bugatti_Chiron.jpg"
     ],
-    "catalog_idx": 44
+    "catalog_idx": 44,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0045",
@@ -642,7 +867,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Bugatti_Type_57_Atalante_1936.jpg"
     ],
-    "catalog_idx": 45
+    "catalog_idx": 45,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0046",
@@ -656,7 +886,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BYD Atto 3.jpg"
     ],
-    "catalog_idx": 46
+    "catalog_idx": 46,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0047",
@@ -670,7 +905,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BYD e6.jpg"
     ],
-    "catalog_idx": 47
+    "catalog_idx": 47,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0048",
@@ -684,7 +924,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\BYD Seal.jpg"
     ],
-    "catalog_idx": 48
+    "catalog_idx": 48,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0049",
@@ -698,7 +943,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Chevrolet Beat.jpg"
     ],
-    "catalog_idx": 49
+    "catalog_idx": 49,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0050",
@@ -712,7 +962,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Chevrolet Cruze.jpg"
     ],
-    "catalog_idx": 50
+    "catalog_idx": 50,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0051",
@@ -726,7 +981,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Chevrolet Enjoy.jpg"
     ],
-    "catalog_idx": 51
+    "catalog_idx": 51,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0052",
@@ -740,7 +1000,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Chevrolet Sail.jpg"
     ],
-    "catalog_idx": 52
+    "catalog_idx": 52,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0053",
@@ -754,7 +1019,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Chevrolet Spark.jpg"
     ],
-    "catalog_idx": 53
+    "catalog_idx": 53,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0054",
@@ -768,7 +1038,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Chevrolet Tavera.jpg"
     ],
-    "catalog_idx": 54
+    "catalog_idx": 54,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0055",
@@ -782,7 +1057,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Chevrolet Trailblazer.jpg"
     ],
-    "catalog_idx": 55
+    "catalog_idx": 55,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0056",
@@ -796,7 +1076,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Citroen C3.jpg"
     ],
-    "catalog_idx": 56
+    "catalog_idx": 56,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0057",
@@ -810,7 +1095,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Citroen C5 Aircross.jpg"
     ],
-    "catalog_idx": 57
+    "catalog_idx": 57,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0058",
@@ -824,7 +1114,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Citroen eC3.jpg"
     ],
-    "catalog_idx": 58
+    "catalog_idx": 58,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0059",
@@ -838,7 +1133,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\dzire.jpg"
     ],
-    "catalog_idx": 59
+    "catalog_idx": 59,
+    "body_type": "Sedan",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Sedan)"
   },
   {
     "id": "car_0060",
@@ -852,7 +1152,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Ferrari 458.jpg"
     ],
-    "catalog_idx": 60
+    "catalog_idx": 60,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0061",
@@ -866,7 +1171,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Ferrari 488.jpg"
     ],
-    "catalog_idx": 61
+    "catalog_idx": 61,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0062",
@@ -881,7 +1191,12 @@
       "Indian Car Recommendation System\\All car images\\Ferrari F8 Tributo.jpg",
       "Indian Car Recommendation System\\All car images\\Ferrari_F8_Tributo.jpg"
     ],
-    "catalog_idx": 62
+    "catalog_idx": 62,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0063",
@@ -895,7 +1210,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Ferrari Portofino.jpg"
     ],
-    "catalog_idx": 63
+    "catalog_idx": 63,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0064",
@@ -909,7 +1229,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Ferrari Purosangue SUV.jpg"
     ],
-    "catalog_idx": 64
+    "catalog_idx": 64,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0065",
@@ -923,7 +1248,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Ferrari Roma.jpg"
     ],
-    "catalog_idx": 65
+    "catalog_idx": 65,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0066",
@@ -937,7 +1267,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Ferrari Sf90 spider.jpg"
     ],
-    "catalog_idx": 66
+    "catalog_idx": 66,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0067",
@@ -951,7 +1286,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Force Motors Five-door Gurkha.jpg"
     ],
-    "catalog_idx": 67
+    "catalog_idx": 67,
+    "body_type": "4x4 Off-Roader",
+    "seating_capacity": "4-Seater / 5-Seater",
+    "fuel_options": "Petrol / Diesel (4WD)",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (4x4 Off-Roader)"
   },
   {
     "id": "car_0068",
@@ -965,7 +1305,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Force Motors Gurkha.jpg"
     ],
-    "catalog_idx": 68
+    "catalog_idx": 68,
+    "body_type": "4x4 Off-Roader",
+    "seating_capacity": "4-Seater / 5-Seater",
+    "fuel_options": "Petrol / Diesel (4WD)",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (4x4 Off-Roader)"
   },
   {
     "id": "car_0069",
@@ -979,7 +1324,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Force Motors Trax Cruiser.jpg"
     ],
-    "catalog_idx": 69
+    "catalog_idx": 69,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0070",
@@ -993,7 +1343,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Ford Aspire.jpg"
     ],
-    "catalog_idx": 70
+    "catalog_idx": 70,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0071",
@@ -1007,7 +1362,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Ford EcoSport.jpg"
     ],
-    "catalog_idx": 71
+    "catalog_idx": 71,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0072",
@@ -1021,7 +1381,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Ford Endeavour.jpg"
     ],
-    "catalog_idx": 72
+    "catalog_idx": 72,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0073",
@@ -1035,7 +1400,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Ford Fiesta.jpg"
     ],
-    "catalog_idx": 73
+    "catalog_idx": 73,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0074",
@@ -1049,7 +1419,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Ford Figo.jpg"
     ],
-    "catalog_idx": 74
+    "catalog_idx": 74,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0075",
@@ -1063,7 +1438,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Ford Freestyle.jpg"
     ],
-    "catalog_idx": 75
+    "catalog_idx": 75,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0076",
@@ -1077,7 +1457,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Ford Ikon.jpg"
     ],
-    "catalog_idx": 76
+    "catalog_idx": 76,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0077",
@@ -1091,7 +1476,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Ford Mondeo.jpg"
     ],
-    "catalog_idx": 77
+    "catalog_idx": 77,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0078",
@@ -1105,7 +1495,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Ford Mustang.jpg"
     ],
-    "catalog_idx": 78
+    "catalog_idx": 78,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0079",
@@ -1120,7 +1515,12 @@
       "Indian Car Recommendation System\\All car images\\Honda Amaze 2018.jpg",
       "Indian Car Recommendation System\\All car images\\Honda Amaze.jpg"
     ],
-    "catalog_idx": 79
+    "catalog_idx": 79,
+    "body_type": "Sedan",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Sedan)"
   },
   {
     "id": "car_0080",
@@ -1135,7 +1535,12 @@
       "Indian Car Recommendation System\\All car images\\Honda City Hybrid eHEV.jpg",
       "Indian Car Recommendation System\\All car images\\Honda City.jpg"
     ],
-    "catalog_idx": 80
+    "catalog_idx": 80,
+    "body_type": "Sedan",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Sedan)"
   },
   {
     "id": "car_0081",
@@ -1149,7 +1554,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Honda Elevate.jpg"
     ],
-    "catalog_idx": 81
+    "catalog_idx": 81,
+    "body_type": "Mid-Size SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel / Strong Hybrid",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Mid-Size SUV)"
   },
   {
     "id": "car_0082",
@@ -1164,7 +1574,12 @@
       "Indian Car Recommendation System\\All car images\\Honda WR-V New.jpg",
       "Indian Car Recommendation System\\All car images\\Honda WR-V.jpg"
     ],
-    "catalog_idx": 82
+    "catalog_idx": 82,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0083",
@@ -1178,7 +1593,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Hyundai Alcazar.jpg"
     ],
-    "catalog_idx": 83
+    "catalog_idx": 83,
+    "body_type": "Full-Size / 3-Row SUV",
+    "seating_capacity": "7-Seater",
+    "fuel_options": "Turbo-Diesel / Turbo-Petrol",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Full-Size / 3-Row SUV)"
   },
   {
     "id": "car_0084",
@@ -1192,7 +1612,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Hyundai Aura.jpg"
     ],
-    "catalog_idx": 84
+    "catalog_idx": 84,
+    "body_type": "Sedan",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Sedan)"
   },
   {
     "id": "car_0085",
@@ -1544,7 +1969,12 @@
       "Cars Dataset\\test\\Hyundai Creta\\91.jpg",
       "Cars Dataset\\test\\Hyundai Creta\\99.jpg"
     ],
-    "catalog_idx": 85
+    "catalog_idx": 85,
+    "body_type": "Mid-Size SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel / Strong Hybrid",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Mid-Size SUV)"
   },
   {
     "id": "car_0086",
@@ -1558,7 +1988,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Hyundai Exter.jpg"
     ],
-    "catalog_idx": 86
+    "catalog_idx": 86,
+    "body_type": "Compact / Micro SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Diesel / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Compact / Micro SUV)"
   },
   {
     "id": "car_0087",
@@ -1572,7 +2007,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Hyundai Grand i10 Nios.jpg"
     ],
-    "catalog_idx": 87
+    "catalog_idx": 87,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0088",
@@ -1587,7 +2027,12 @@
       "Indian Car Recommendation System\\All car images\\Hyundai i20 N Line.jpg",
       "Indian Car Recommendation System\\All car images\\Hyundai i20.jpg"
     ],
-    "catalog_idx": 88
+    "catalog_idx": 88,
+    "body_type": "Hatchback",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / CNG / Electric",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Hatchback)"
   },
   {
     "id": "car_0089",
@@ -1601,7 +2046,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Hyundai Ioniq 5.jpg"
     ],
-    "catalog_idx": 89
+    "catalog_idx": 89,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0090",
@@ -1615,7 +2065,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Hyundai Kona Electric.jpg"
     ],
-    "catalog_idx": 90
+    "catalog_idx": 90,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0091",
@@ -1629,7 +2084,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Hyundai Tucson.jpg"
     ],
-    "catalog_idx": 91
+    "catalog_idx": 91,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0092",
@@ -1644,7 +2104,12 @@
       "Indian Car Recommendation System\\All car images\\Hyundai Venue N Line.jpg",
       "Indian Car Recommendation System\\All car images\\Hyundai Venue.jpg"
     ],
-    "catalog_idx": 92
+    "catalog_idx": 92,
+    "body_type": "Compact / Micro SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Diesel / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Compact / Micro SUV)"
   },
   {
     "id": "car_0093",
@@ -1658,7 +2123,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Hyundai Verna.jpg"
     ],
-    "catalog_idx": 93
+    "catalog_idx": 93,
+    "body_type": "Sedan",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Sedan)"
   },
   {
     "id": "car_0094",
@@ -1672,7 +2142,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Isuzu D-Max.jpg"
     ],
-    "catalog_idx": 94
+    "catalog_idx": 94,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0095",
@@ -1686,7 +2161,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Isuzu MU-X.jpg"
     ],
-    "catalog_idx": 95
+    "catalog_idx": 95,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0096",
@@ -1700,7 +2180,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Jaguar F-Pace.jpg"
     ],
-    "catalog_idx": 96
+    "catalog_idx": 96,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0097",
@@ -1714,7 +2199,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Jaguar F-Type.jpg"
     ],
-    "catalog_idx": 97
+    "catalog_idx": 97,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0098",
@@ -1728,7 +2218,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Jaguar I-Pace.jpg"
     ],
-    "catalog_idx": 98
+    "catalog_idx": 98,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0099",
@@ -1742,7 +2237,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Jaguar XE.jpg"
     ],
-    "catalog_idx": 99
+    "catalog_idx": 99,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0100",
@@ -1756,7 +2256,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Jaguar XF.jpg"
     ],
-    "catalog_idx": 100
+    "catalog_idx": 100,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0101",
@@ -1770,7 +2275,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Jaguar XJ L.jpg"
     ],
-    "catalog_idx": 101
+    "catalog_idx": 101,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0102",
@@ -1784,7 +2294,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Jeep Avenger.jpg"
     ],
-    "catalog_idx": 102
+    "catalog_idx": 102,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0103",
@@ -1798,7 +2313,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Jeep Compass.jpg"
     ],
-    "catalog_idx": 103
+    "catalog_idx": 103,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0104",
@@ -1812,7 +2332,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Jeep Grand Cherokee.jpg"
     ],
-    "catalog_idx": 104
+    "catalog_idx": 104,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0105",
@@ -1826,7 +2351,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Jeep Meridian.jpg"
     ],
-    "catalog_idx": 105
+    "catalog_idx": 105,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0106",
@@ -1840,7 +2370,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Jeep Renegade.jpg"
     ],
-    "catalog_idx": 106
+    "catalog_idx": 106,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0107",
@@ -1854,7 +2389,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Jeep Wrangler.jpg"
     ],
-    "catalog_idx": 107
+    "catalog_idx": 107,
+    "body_type": "4x4 Off-Roader",
+    "seating_capacity": "4-Seater / 5-Seater",
+    "fuel_options": "Petrol / Diesel (4WD)",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (4x4 Off-Roader)"
   },
   {
     "id": "car_0108",
@@ -1868,7 +2408,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Kia Carens.jpg"
     ],
-    "catalog_idx": 108
+    "catalog_idx": 108,
+    "body_type": "MUV / MPV",
+    "seating_capacity": "7-Seater / 8-Seater",
+    "fuel_options": "Petrol / Diesel / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (MUV / MPV)"
   },
   {
     "id": "car_0109",
@@ -1882,7 +2427,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Kia Carnival.jpg"
     ],
-    "catalog_idx": 109
+    "catalog_idx": 109,
+    "body_type": "MUV / MPV",
+    "seating_capacity": "7-Seater / 8-Seater",
+    "fuel_options": "Petrol / Diesel / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (MUV / MPV)"
   },
   {
     "id": "car_0110",
@@ -1896,7 +2446,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Kia EV6.jpg"
     ],
-    "catalog_idx": 110
+    "catalog_idx": 110,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0111",
@@ -1910,7 +2465,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Kia Seltos.jpg"
     ],
-    "catalog_idx": 111
+    "catalog_idx": 111,
+    "body_type": "Mid-Size SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel / Strong Hybrid",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Mid-Size SUV)"
   },
   {
     "id": "car_0112",
@@ -1924,7 +2484,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Kia Sonet.jpg"
     ],
-    "catalog_idx": 112
+    "catalog_idx": 112,
+    "body_type": "Compact / Micro SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Diesel / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Compact / Micro SUV)"
   },
   {
     "id": "car_0113",
@@ -1938,7 +2503,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Lamborghini aventador_ultimae_roadster_m.jpg"
     ],
-    "catalog_idx": 113
+    "catalog_idx": 113,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0114",
@@ -1952,7 +2522,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Lamborghini Gallardo.jpg"
     ],
-    "catalog_idx": 114
+    "catalog_idx": 114,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0115",
@@ -1966,7 +2541,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Lamborghini Huracan Evo Spyder.jpg"
     ],
-    "catalog_idx": 115
+    "catalog_idx": 115,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0116",
@@ -1980,7 +2560,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Lamborghini Huracan Evo.jpg"
     ],
-    "catalog_idx": 116
+    "catalog_idx": 116,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0117",
@@ -1994,7 +2579,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Lamborghini Huracan STO.jpg"
     ],
-    "catalog_idx": 117
+    "catalog_idx": 117,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0118",
@@ -2008,7 +2598,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Lamborghini Huracan Tecnica.jpg"
     ],
-    "catalog_idx": 118
+    "catalog_idx": 118,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0119",
@@ -2022,7 +2617,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Lamborghini sesto-elemento-HEADER.jpg"
     ],
-    "catalog_idx": 119
+    "catalog_idx": 119,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0120",
@@ -2036,7 +2636,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Lamborghini Urus Performante.jpg"
     ],
-    "catalog_idx": 120
+    "catalog_idx": 120,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0121",
@@ -2050,7 +2655,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Lamborghini Urus S.jpg"
     ],
-    "catalog_idx": 121
+    "catalog_idx": 121,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0122",
@@ -2064,7 +2674,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Land Rover Defender.jpg"
     ],
-    "catalog_idx": 122
+    "catalog_idx": 122,
+    "body_type": "4x4 Off-Roader",
+    "seating_capacity": "4-Seater / 5-Seater",
+    "fuel_options": "Petrol / Diesel (4WD)",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (4x4 Off-Roader)"
   },
   {
     "id": "car_0123",
@@ -2078,7 +2693,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Land Rover Discovery Sport.jpg"
     ],
-    "catalog_idx": 123
+    "catalog_idx": 123,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0124",
@@ -2092,7 +2712,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Land Rover Discovery.jpg"
     ],
-    "catalog_idx": 124
+    "catalog_idx": 124,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0125",
@@ -2106,7 +2731,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Land Rover Range Rover Evoque.jpg"
     ],
-    "catalog_idx": 125
+    "catalog_idx": 125,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0126",
@@ -2120,7 +2750,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Land Rover Range Rover Sport.jpg"
     ],
-    "catalog_idx": 126
+    "catalog_idx": 126,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0127",
@@ -2134,7 +2769,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Land Rover Range Rover Velar.jpg"
     ],
-    "catalog_idx": 127
+    "catalog_idx": 127,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0128",
@@ -2148,7 +2788,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Land Rover Range Rover.jpg"
     ],
-    "catalog_idx": 128
+    "catalog_idx": 128,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0129",
@@ -2162,7 +2807,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Lexus ES.jpg"
     ],
-    "catalog_idx": 129
+    "catalog_idx": 129,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0130",
@@ -2176,7 +2826,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Lexus LC 500h.jpg"
     ],
-    "catalog_idx": 130
+    "catalog_idx": 130,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0131",
@@ -2190,7 +2845,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Lexus LS.jpg"
     ],
-    "catalog_idx": 131
+    "catalog_idx": 131,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0132",
@@ -2204,7 +2864,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Lexus LX.jpg"
     ],
-    "catalog_idx": 132
+    "catalog_idx": 132,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0133",
@@ -2218,7 +2883,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Lexus NX.jpg"
     ],
-    "catalog_idx": 133
+    "catalog_idx": 133,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0134",
@@ -2232,7 +2902,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Lexus RX.jpg"
     ],
-    "catalog_idx": 134
+    "catalog_idx": 134,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0135",
@@ -2246,7 +2921,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Lexus UX 300e.jpg"
     ],
-    "catalog_idx": 135
+    "catalog_idx": 135,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0136",
@@ -2260,7 +2940,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mahindra Bolero Neo.jpg"
     ],
-    "catalog_idx": 136
+    "catalog_idx": 136,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0137",
@@ -2274,7 +2959,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mahindra Bolero.jpg"
     ],
-    "catalog_idx": 137
+    "catalog_idx": 137,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0138",
@@ -2288,7 +2978,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mahindra KUV100 NXT.jpg"
     ],
-    "catalog_idx": 138
+    "catalog_idx": 138,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0139",
@@ -2302,7 +2997,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mahindra Marazzo.jpg"
     ],
-    "catalog_idx": 139
+    "catalog_idx": 139,
+    "body_type": "MUV / MPV",
+    "seating_capacity": "7-Seater / 8-Seater",
+    "fuel_options": "Petrol / Diesel / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (MUV / MPV)"
   },
   {
     "id": "car_0140",
@@ -2316,7 +3016,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mahindra Scorpio N.jpg"
     ],
-    "catalog_idx": 140
+    "catalog_idx": 140,
+    "body_type": "Full-Size / 3-Row SUV",
+    "seating_capacity": "7-Seater",
+    "fuel_options": "Turbo-Diesel / Turbo-Petrol",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Full-Size / 3-Row SUV)"
   },
   {
     "id": "car_0141",
@@ -2721,7 +3426,12 @@
       "Cars Dataset\\test\\Mahindra Scorpio\\90.jpg",
       "Cars Dataset\\test\\Mahindra Scorpio\\96.jpg"
     ],
-    "catalog_idx": 141
+    "catalog_idx": 141,
+    "body_type": "Full-Size / 3-Row SUV",
+    "seating_capacity": "7-Seater",
+    "fuel_options": "Turbo-Diesel / Turbo-Petrol",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Full-Size / 3-Row SUV)"
   },
   {
     "id": "car_0142",
@@ -2735,7 +3445,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mahindra Thar.jpg"
     ],
-    "catalog_idx": 142
+    "catalog_idx": 142,
+    "body_type": "4x4 Off-Roader",
+    "seating_capacity": "4-Seater / 5-Seater",
+    "fuel_options": "Petrol / Diesel (4WD)",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (4x4 Off-Roader)"
   },
   {
     "id": "car_0143",
@@ -2750,7 +3465,12 @@
       "Indian Car Recommendation System\\All car images\\Mahindra XUV300 TurboSport.jpg",
       "Indian Car Recommendation System\\All car images\\Mahindra XUV300.jpg"
     ],
-    "catalog_idx": 143
+    "catalog_idx": 143,
+    "body_type": "Compact / Micro SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Diesel / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Compact / Micro SUV)"
   },
   {
     "id": "car_0144",
@@ -2764,7 +3484,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mahindra XUV400.jpg"
     ],
-    "catalog_idx": 144
+    "catalog_idx": 144,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0145",
@@ -2778,7 +3503,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mahindra XUV700.jpg"
     ],
-    "catalog_idx": 145
+    "catalog_idx": 145,
+    "body_type": "Full-Size / 3-Row SUV",
+    "seating_capacity": "7-Seater",
+    "fuel_options": "Turbo-Diesel / Turbo-Petrol",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Full-Size / 3-Row SUV)"
   },
   {
     "id": "car_0146",
@@ -2792,7 +3522,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti A-Star.jpg"
     ],
-    "catalog_idx": 146
+    "catalog_idx": 146,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0147",
@@ -2806,7 +3541,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti Alto K10.jpg"
     ],
-    "catalog_idx": 147
+    "catalog_idx": 147,
+    "body_type": "Hatchback",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / CNG / Electric",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Hatchback)"
   },
   {
     "id": "car_0148",
@@ -2821,7 +3561,12 @@
       "Indian Car Recommendation System\\All car images\\Maruti Brezza.jpg",
       "Indian Car Recommendation System\\All car images\\Maruti Vitara Brezza 2020.jpg"
     ],
-    "catalog_idx": 148
+    "catalog_idx": 148,
+    "body_type": "Compact / Micro SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Diesel / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Compact / Micro SUV)"
   },
   {
     "id": "car_0149",
@@ -2835,7 +3580,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti Celerio.jpg"
     ],
-    "catalog_idx": 149
+    "catalog_idx": 149,
+    "body_type": "Hatchback",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / CNG / Electric",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Hatchback)"
   },
   {
     "id": "car_0150",
@@ -2850,7 +3600,12 @@
       "Indian Car Recommendation System\\All car images\\Maruti Ciaz 2017.jpg",
       "Indian Car Recommendation System\\All car images\\Maruti Ciaz.jpg"
     ],
-    "catalog_idx": 150
+    "catalog_idx": 150,
+    "body_type": "Sedan",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Sedan)"
   },
   {
     "id": "car_0151",
@@ -2864,7 +3619,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti Eeco.jpg"
     ],
-    "catalog_idx": 151
+    "catalog_idx": 151,
+    "body_type": "MUV / MPV",
+    "seating_capacity": "7-Seater / 8-Seater",
+    "fuel_options": "Petrol / Diesel / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (MUV / MPV)"
   },
   {
     "id": "car_0152",
@@ -2878,7 +3638,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti Ertiga.jpg"
     ],
-    "catalog_idx": 152
+    "catalog_idx": 152,
+    "body_type": "MUV / MPV",
+    "seating_capacity": "7-Seater / 8-Seater",
+    "fuel_options": "Petrol / Diesel / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (MUV / MPV)"
   },
   {
     "id": "car_0153",
@@ -2892,7 +3657,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti Esteem.jpg"
     ],
-    "catalog_idx": 153
+    "catalog_idx": 153,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0154",
@@ -2906,7 +3676,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti Estilo.jpg"
     ],
-    "catalog_idx": 154
+    "catalog_idx": 154,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0155",
@@ -2920,7 +3695,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti FRONX.jpg"
     ],
-    "catalog_idx": 155
+    "catalog_idx": 155,
+    "body_type": "Compact / Micro SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Diesel / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Compact / Micro SUV)"
   },
   {
     "id": "car_0156",
@@ -2934,7 +3714,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti Grand Vitara.jpg"
     ],
-    "catalog_idx": 156
+    "catalog_idx": 156,
+    "body_type": "Mid-Size SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel / Strong Hybrid",
+    "powertrain_type": "Self-Charging Strong Hybrid",
+    "market_segment": "Indian Automotive Market (Mid-Size SUV)"
   },
   {
     "id": "car_0157",
@@ -2948,7 +3733,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti Gypsy.jpg"
     ],
-    "catalog_idx": 157
+    "catalog_idx": 157,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0158",
@@ -2962,7 +3752,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti Ignis.jpg"
     ],
-    "catalog_idx": 158
+    "catalog_idx": 158,
+    "body_type": "Hatchback",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / CNG / Electric",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Hatchback)"
   },
   {
     "id": "car_0159",
@@ -2976,7 +3771,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti Invicto.jpg"
     ],
-    "catalog_idx": 159
+    "catalog_idx": 159,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0160",
@@ -2990,7 +3790,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti Jimny.jpg"
     ],
-    "catalog_idx": 160
+    "catalog_idx": 160,
+    "body_type": "4x4 Off-Roader",
+    "seating_capacity": "4-Seater / 5-Seater",
+    "fuel_options": "Petrol / Diesel (4WD)",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (4x4 Off-Roader)"
   },
   {
     "id": "car_0161",
@@ -3004,7 +3809,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti Kizashi.jpg"
     ],
-    "catalog_idx": 161
+    "catalog_idx": 161,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0162",
@@ -3018,7 +3828,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti Omni.jpg"
     ],
-    "catalog_idx": 162
+    "catalog_idx": 162,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0163",
@@ -3032,7 +3847,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti Ritz.jpg"
     ],
-    "catalog_idx": 163
+    "catalog_idx": 163,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0164",
@@ -3046,7 +3866,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti S-Cross 2020.jpg"
     ],
-    "catalog_idx": 164
+    "catalog_idx": 164,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0165",
@@ -3060,7 +3885,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti S-Presso.jpg"
     ],
-    "catalog_idx": 165
+    "catalog_idx": 165,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0166",
@@ -3600,7 +4430,12 @@
       "Cars Dataset\\test\\Swift\\789.jpg",
       "Cars Dataset\\test\\Swift\\94.jpg"
     ],
-    "catalog_idx": 166
+    "catalog_idx": 166,
+    "body_type": "Hatchback",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / CNG / Electric",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Hatchback)"
   },
   {
     "id": "car_0167",
@@ -3614,7 +4449,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti SX4.jpg"
     ],
-    "catalog_idx": 167
+    "catalog_idx": 167,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0168",
@@ -3628,7 +4468,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti Versa.jpg"
     ],
-    "catalog_idx": 168
+    "catalog_idx": 168,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0169",
@@ -3643,7 +4488,12 @@
       "Indian Car Recommendation System\\All car images\\Maruti Wagon R 2019.jpg",
       "Indian Car Recommendation System\\All car images\\Maruti Wagon R.jpg"
     ],
-    "catalog_idx": 169
+    "catalog_idx": 169,
+    "body_type": "Hatchback",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / CNG / Electric",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Hatchback)"
   },
   {
     "id": "car_0170",
@@ -3657,7 +4507,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti XL6.jpg"
     ],
-    "catalog_idx": 170
+    "catalog_idx": 170,
+    "body_type": "MUV / MPV",
+    "seating_capacity": "7-Seater / 8-Seater",
+    "fuel_options": "Petrol / Diesel / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (MUV / MPV)"
   },
   {
     "id": "car_0171",
@@ -3671,7 +4526,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maruti Zen.jpg"
     ],
-    "catalog_idx": 171
+    "catalog_idx": 171,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0172",
@@ -3685,7 +4545,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maserati Ghibli.jpg"
     ],
-    "catalog_idx": 172
+    "catalog_idx": 172,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0173",
@@ -3699,7 +4564,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maserati Levante.jpg"
     ],
-    "catalog_idx": 173
+    "catalog_idx": 173,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0174",
@@ -3713,7 +4583,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maserati MC20.jpg"
     ],
-    "catalog_idx": 174
+    "catalog_idx": 174,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0175",
@@ -3727,7 +4602,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Maserati Quattroporte.jpg"
     ],
-    "catalog_idx": 175
+    "catalog_idx": 175,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0176",
@@ -3741,7 +4621,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\McLaren 720S.jpg"
     ],
-    "catalog_idx": 176
+    "catalog_idx": 176,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0177",
@@ -3755,7 +4640,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\McLaren GT.jpg"
     ],
-    "catalog_idx": 177
+    "catalog_idx": 177,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0178",
@@ -3769,7 +4659,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz A-Class Limousine.jpg"
     ],
-    "catalog_idx": 178
+    "catalog_idx": 178,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0179",
@@ -3783,7 +4678,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz AMG A35.jpg"
     ],
-    "catalog_idx": 179
+    "catalog_idx": 179,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0180",
@@ -3797,7 +4697,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz AMG A45 S.jpg"
     ],
-    "catalog_idx": 180
+    "catalog_idx": 180,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0181",
@@ -3811,7 +4716,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz AMG E53 Cabriolet.jpg"
     ],
-    "catalog_idx": 181
+    "catalog_idx": 181,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0182",
@@ -3825,7 +4735,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz AMG E53.jpg"
     ],
-    "catalog_idx": 182
+    "catalog_idx": 182,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0183",
@@ -3839,7 +4754,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz AMG E63.jpg"
     ],
-    "catalog_idx": 183
+    "catalog_idx": 183,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0184",
@@ -3853,7 +4773,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz AMG EQS.jpg"
     ],
-    "catalog_idx": 184
+    "catalog_idx": 184,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0185",
@@ -3867,7 +4792,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz AMG GLA35.jpg"
     ],
-    "catalog_idx": 185
+    "catalog_idx": 185,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0186",
@@ -3881,7 +4811,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz AMG GLC43 Coupe.jpg"
     ],
-    "catalog_idx": 186
+    "catalog_idx": 186,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0187",
@@ -3895,7 +4830,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz AMG GLE Coupe.jpg"
     ],
-    "catalog_idx": 187
+    "catalog_idx": 187,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0188",
@@ -3909,7 +4849,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz AMG GT 63 S 4MATIC Plus.jpg"
     ],
-    "catalog_idx": 188
+    "catalog_idx": 188,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0189",
@@ -3923,7 +4868,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz AMG GT 63 S E Performance.jpg"
     ],
-    "catalog_idx": 189
+    "catalog_idx": 189,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0190",
@@ -3937,7 +4887,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz AMG SL55 Roadster.jpg"
     ],
-    "catalog_idx": 190
+    "catalog_idx": 190,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0191",
@@ -3951,7 +4906,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz C-Class.jpg"
     ],
-    "catalog_idx": 191
+    "catalog_idx": 191,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0192",
@@ -3965,7 +4925,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz E-Class.jpg"
     ],
-    "catalog_idx": 192
+    "catalog_idx": 192,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0193",
@@ -3979,7 +4944,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz EQB.jpg"
     ],
-    "catalog_idx": 193
+    "catalog_idx": 193,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0194",
@@ -3993,7 +4963,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz EQC.jpg"
     ],
-    "catalog_idx": 194
+    "catalog_idx": 194,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0195",
@@ -4007,7 +4982,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz EQS.jpg"
     ],
-    "catalog_idx": 195
+    "catalog_idx": 195,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0196",
@@ -4021,7 +5001,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz G-Class.jpg"
     ],
-    "catalog_idx": 196
+    "catalog_idx": 196,
+    "body_type": "4x4 Off-Roader",
+    "seating_capacity": "4-Seater / 5-Seater",
+    "fuel_options": "Petrol / Diesel (4WD)",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (4x4 Off-Roader)"
   },
   {
     "id": "car_0197",
@@ -4035,7 +5020,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz GLA.jpg"
     ],
-    "catalog_idx": 197
+    "catalog_idx": 197,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0198",
@@ -4049,7 +5039,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz GLB.jpg"
     ],
-    "catalog_idx": 198
+    "catalog_idx": 198,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0199",
@@ -4063,7 +5058,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz GLC Coupe.jpg"
     ],
-    "catalog_idx": 199
+    "catalog_idx": 199,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0200",
@@ -4077,7 +5077,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz GLC.jpg"
     ],
-    "catalog_idx": 200
+    "catalog_idx": 200,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0201",
@@ -4091,7 +5096,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz GLE.jpg"
     ],
-    "catalog_idx": 201
+    "catalog_idx": 201,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0202",
@@ -4105,7 +5115,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz GLS.jpg"
     ],
-    "catalog_idx": 202
+    "catalog_idx": 202,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0203",
@@ -4119,7 +5134,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz Maybach GLS.jpg"
     ],
-    "catalog_idx": 203
+    "catalog_idx": 203,
+    "body_type": "Ultra-Luxury Flagship",
+    "seating_capacity": "4-Seater Executive",
+    "fuel_options": "Twin-Turbo V12 / Hybrid",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Ultra-Luxury Flagship)"
   },
   {
     "id": "car_0204",
@@ -4133,7 +5153,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz Maybach S-Class.jpg"
     ],
-    "catalog_idx": 204
+    "catalog_idx": 204,
+    "body_type": "Ultra-Luxury Flagship",
+    "seating_capacity": "4-Seater Executive",
+    "fuel_options": "Twin-Turbo V12 / Hybrid",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Ultra-Luxury Flagship)"
   },
   {
     "id": "car_0205",
@@ -4147,7 +5172,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Mercedes-Benz S-Class.jpg"
     ],
-    "catalog_idx": 205
+    "catalog_idx": 205,
+    "body_type": "Ultra-Luxury Flagship",
+    "seating_capacity": "4-Seater Executive",
+    "fuel_options": "Twin-Turbo V12 / Hybrid",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Ultra-Luxury Flagship)"
   },
   {
     "id": "car_0206",
@@ -4161,7 +5191,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\MG Astor.jpg"
     ],
-    "catalog_idx": 206
+    "catalog_idx": 206,
+    "body_type": "Mid-Size SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel / Strong Hybrid",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Mid-Size SUV)"
   },
   {
     "id": "car_0207",
@@ -4175,7 +5210,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\MG Comet EV.jpg"
     ],
-    "catalog_idx": 207
+    "catalog_idx": 207,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0208",
@@ -4189,7 +5229,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\MG Gloster.jpg"
     ],
-    "catalog_idx": 208
+    "catalog_idx": 208,
+    "body_type": "Full-Size / 3-Row SUV",
+    "seating_capacity": "7-Seater",
+    "fuel_options": "Turbo-Diesel / Turbo-Petrol",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Full-Size / 3-Row SUV)"
   },
   {
     "id": "car_0209",
@@ -4203,7 +5248,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\MG Hector Plus.jpg"
     ],
-    "catalog_idx": 209
+    "catalog_idx": 209,
+    "body_type": "Full-Size / 3-Row SUV",
+    "seating_capacity": "7-Seater",
+    "fuel_options": "Turbo-Diesel / Turbo-Petrol",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Full-Size / 3-Row SUV)"
   },
   {
     "id": "car_0210",
@@ -4217,7 +5267,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\MG Hector.jpg"
     ],
-    "catalog_idx": 210
+    "catalog_idx": 210,
+    "body_type": "Full-Size / 3-Row SUV",
+    "seating_capacity": "7-Seater",
+    "fuel_options": "Turbo-Diesel / Turbo-Petrol",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Full-Size / 3-Row SUV)"
   },
   {
     "id": "car_0211",
@@ -4231,7 +5286,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\MG ZS EV.jpg"
     ],
-    "catalog_idx": 211
+    "catalog_idx": 211,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0212",
@@ -4245,7 +5305,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\MINI Cooper SE.jpg"
     ],
-    "catalog_idx": 212
+    "catalog_idx": 212,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0213",
@@ -4259,7 +5324,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\MINI Cooper.jpg"
     ],
-    "catalog_idx": 213
+    "catalog_idx": 213,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0214",
@@ -4273,7 +5343,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\MINI Countryman.jpg"
     ],
-    "catalog_idx": 214
+    "catalog_idx": 214,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0215",
@@ -4287,7 +5362,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Nissan Magnite.jpg"
     ],
-    "catalog_idx": 215
+    "catalog_idx": 215,
+    "body_type": "Compact / Micro SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Diesel / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Compact / Micro SUV)"
   },
   {
     "id": "car_0216",
@@ -4301,7 +5381,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Nissan Micra.jpg"
     ],
-    "catalog_idx": 216
+    "catalog_idx": 216,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0217",
@@ -4315,7 +5400,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Nissan Sunny.jpg"
     ],
-    "catalog_idx": 217
+    "catalog_idx": 217,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0218",
@@ -4329,7 +5419,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Nissan Terrano.jpg"
     ],
-    "catalog_idx": 218
+    "catalog_idx": 218,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0219",
@@ -4343,7 +5438,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Nissan X-Trail.jpg"
     ],
-    "catalog_idx": 219
+    "catalog_idx": 219,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0220",
@@ -4357,7 +5457,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Porsche 718.jpg"
     ],
-    "catalog_idx": 220
+    "catalog_idx": 220,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0221",
@@ -4371,7 +5476,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Porsche 911.jpg"
     ],
-    "catalog_idx": 221
+    "catalog_idx": 221,
+    "body_type": "Supercar / Coupe",
+    "seating_capacity": "2-Seater / 2+2",
+    "fuel_options": "Twin-Turbo V8 / V10 / Flat-6",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Supercar / Coupe)"
   },
   {
     "id": "car_0222",
@@ -4385,7 +5495,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Porsche Cayenne Coupe.jpg"
     ],
-    "catalog_idx": 222
+    "catalog_idx": 222,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0223",
@@ -4399,7 +5514,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Porsche Cayenne.jpg"
     ],
-    "catalog_idx": 223
+    "catalog_idx": 223,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0224",
@@ -4413,7 +5533,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Porsche Macan.jpg"
     ],
-    "catalog_idx": 224
+    "catalog_idx": 224,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0225",
@@ -4427,7 +5552,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Porsche Panamera.jpg"
     ],
-    "catalog_idx": 225
+    "catalog_idx": 225,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0226",
@@ -4441,7 +5571,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Porsche Taycan Cross Turismo.jpg"
     ],
-    "catalog_idx": 226
+    "catalog_idx": 226,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0227",
@@ -4455,7 +5590,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Porsche Taycan.jpg"
     ],
-    "catalog_idx": 227
+    "catalog_idx": 227,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0228",
@@ -4469,7 +5609,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Renault Duster.jpg"
     ],
-    "catalog_idx": 228
+    "catalog_idx": 228,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0229",
@@ -4483,7 +5628,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Renault Kiger.jpg"
     ],
-    "catalog_idx": 229
+    "catalog_idx": 229,
+    "body_type": "Compact / Micro SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Diesel / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Compact / Micro SUV)"
   },
   {
     "id": "car_0230",
@@ -4497,7 +5647,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Renault Kwid.jpg"
     ],
-    "catalog_idx": 230
+    "catalog_idx": 230,
+    "body_type": "Hatchback",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / CNG / Electric",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Hatchback)"
   },
   {
     "id": "car_0231",
@@ -4511,7 +5666,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Renault Triber.jpg"
     ],
-    "catalog_idx": 231
+    "catalog_idx": 231,
+    "body_type": "MUV / MPV",
+    "seating_capacity": "7-Seater / 8-Seater",
+    "fuel_options": "Petrol / Diesel / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (MUV / MPV)"
   },
   {
     "id": "car_0232",
@@ -4525,7 +5685,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Rolls-Royce Cullinan.jpg"
     ],
-    "catalog_idx": 232
+    "catalog_idx": 232,
+    "body_type": "Ultra-Luxury Flagship",
+    "seating_capacity": "4-Seater Executive",
+    "fuel_options": "Twin-Turbo V12 / Hybrid",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Ultra-Luxury Flagship)"
   },
   {
     "id": "car_0233",
@@ -4539,7 +5704,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Rolls-Royce Dawn.jpg"
     ],
-    "catalog_idx": 233
+    "catalog_idx": 233,
+    "body_type": "Ultra-Luxury Flagship",
+    "seating_capacity": "4-Seater Executive",
+    "fuel_options": "Twin-Turbo V12 / Hybrid",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Ultra-Luxury Flagship)"
   },
   {
     "id": "car_0234",
@@ -4553,7 +5723,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Rolls-Royce Phantom.jpg"
     ],
-    "catalog_idx": 234
+    "catalog_idx": 234,
+    "body_type": "Ultra-Luxury Flagship",
+    "seating_capacity": "4-Seater Executive",
+    "fuel_options": "Twin-Turbo V12 / Hybrid",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Ultra-Luxury Flagship)"
   },
   {
     "id": "car_0235",
@@ -4567,7 +5742,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Rolls-Royce Wraith.jpg"
     ],
-    "catalog_idx": 235
+    "catalog_idx": 235,
+    "body_type": "Ultra-Luxury Flagship",
+    "seating_capacity": "4-Seater Executive",
+    "fuel_options": "Twin-Turbo V12 / Hybrid",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Ultra-Luxury Flagship)"
   },
   {
     "id": "car_0236",
@@ -4581,7 +5761,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Skoda Enyaq.jpg"
     ],
-    "catalog_idx": 236
+    "catalog_idx": 236,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0237",
@@ -4595,7 +5780,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Skoda Fabia.jpg"
     ],
-    "catalog_idx": 237
+    "catalog_idx": 237,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0238",
@@ -4609,7 +5799,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Skoda Kamiq.jpg"
     ],
-    "catalog_idx": 238
+    "catalog_idx": 238,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0239",
@@ -4623,7 +5818,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Skoda Kodiaq.jpg"
     ],
-    "catalog_idx": 239
+    "catalog_idx": 239,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0240",
@@ -4637,7 +5837,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Skoda Kushaq.jpg"
     ],
-    "catalog_idx": 240
+    "catalog_idx": 240,
+    "body_type": "Mid-Size SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel / Strong Hybrid",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Mid-Size SUV)"
   },
   {
     "id": "car_0241",
@@ -4651,7 +5856,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Skoda Octavia 2017.jpg"
     ],
-    "catalog_idx": 241
+    "catalog_idx": 241,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0242",
@@ -4665,7 +5875,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Skoda Octavia.jpg"
     ],
-    "catalog_idx": 242
+    "catalog_idx": 242,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0243",
@@ -4679,7 +5894,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Skoda Rapid TSI.jpg"
     ],
-    "catalog_idx": 243
+    "catalog_idx": 243,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0244",
@@ -4693,7 +5913,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Skoda Slavia.jpg"
     ],
-    "catalog_idx": 244
+    "catalog_idx": 244,
+    "body_type": "Sedan",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Sedan)"
   },
   {
     "id": "car_0245",
@@ -4707,7 +5932,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Skoda Superb.jpg"
     ],
-    "catalog_idx": 245
+    "catalog_idx": 245,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0246",
@@ -4721,7 +5951,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Skoda Yeti.jpg"
     ],
-    "catalog_idx": 246
+    "catalog_idx": 246,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0247",
@@ -4735,7 +5970,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Tata Altroz.jpg"
     ],
-    "catalog_idx": 247
+    "catalog_idx": 247,
+    "body_type": "Hatchback",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / CNG / Electric",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Hatchback)"
   },
   {
     "id": "car_0248",
@@ -4749,7 +5989,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Tata Harrier.jpg"
     ],
-    "catalog_idx": 248
+    "catalog_idx": 248,
+    "body_type": "Full-Size / 3-Row SUV",
+    "seating_capacity": "7-Seater",
+    "fuel_options": "Turbo-Diesel / Turbo-Petrol",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Full-Size / 3-Row SUV)"
   },
   {
     "id": "car_0249",
@@ -4764,7 +6009,12 @@
       "Indian Car Recommendation System\\All car images\\Tata Nexon EV Max.jpg",
       "Indian Car Recommendation System\\All car images\\Tata Nexon EV Prime.jpg"
     ],
-    "catalog_idx": 249
+    "catalog_idx": 249,
+    "body_type": "Compact / Micro SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Diesel / EV",
+    "powertrain_type": "100% Electric (EV)",
+    "market_segment": "Indian Automotive Market (Compact / Micro SUV)"
   },
   {
     "id": "car_0250",
@@ -4778,7 +6028,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Tata Nexon.jpg"
     ],
-    "catalog_idx": 250
+    "catalog_idx": 250,
+    "body_type": "Compact / Micro SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Diesel / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Compact / Micro SUV)"
   },
   {
     "id": "car_0251",
@@ -4792,7 +6047,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Tata Punch.jpg"
     ],
-    "catalog_idx": 251
+    "catalog_idx": 251,
+    "body_type": "Compact / Micro SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Diesel / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Compact / Micro SUV)"
   },
   {
     "id": "car_0252",
@@ -5353,7 +6613,12 @@
       "Cars Dataset\\test\\Tata Safari\\89.jpg",
       "Cars Dataset\\test\\Tata Safari\\91.jpg"
     ],
-    "catalog_idx": 252
+    "catalog_idx": 252,
+    "body_type": "Full-Size / 3-Row SUV",
+    "seating_capacity": "7-Seater",
+    "fuel_options": "Turbo-Diesel / Turbo-Petrol",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Full-Size / 3-Row SUV)"
   },
   {
     "id": "car_0253",
@@ -5369,7 +6634,12 @@
       "Indian Car Recommendation System\\All car images\\Tata Tiago NRG.jpg",
       "Indian Car Recommendation System\\All car images\\Tata Tiago.jpg"
     ],
-    "catalog_idx": 253
+    "catalog_idx": 253,
+    "body_type": "Hatchback",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / CNG / Electric",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Hatchback)"
   },
   {
     "id": "car_0254",
@@ -5383,7 +6653,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Tata Tigor.jpg"
     ],
-    "catalog_idx": 254
+    "catalog_idx": 254,
+    "body_type": "Sedan",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Sedan)"
   },
   {
     "id": "car_0255",
@@ -5397,7 +6672,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Toyota Camry.jpg"
     ],
-    "catalog_idx": 255
+    "catalog_idx": 255,
+    "body_type": "Sedan",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Sedan)"
   },
   {
     "id": "car_0256",
@@ -5411,7 +6691,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Toyota Fortuner Legender.jpg"
     ],
-    "catalog_idx": 256
+    "catalog_idx": 256,
+    "body_type": "Full-Size / 3-Row SUV",
+    "seating_capacity": "7-Seater",
+    "fuel_options": "Turbo-Diesel / Turbo-Petrol",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Full-Size / 3-Row SUV)"
   },
   {
     "id": "car_0257",
@@ -5425,7 +6710,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Toyota Fortuner.jpg"
     ],
-    "catalog_idx": 257
+    "catalog_idx": 257,
+    "body_type": "Full-Size / 3-Row SUV",
+    "seating_capacity": "7-Seater",
+    "fuel_options": "Turbo-Diesel / Turbo-Petrol",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Full-Size / 3-Row SUV)"
   },
   {
     "id": "car_0258",
@@ -5439,7 +6729,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Toyota Glanza.jpg"
     ],
-    "catalog_idx": 258
+    "catalog_idx": 258,
+    "body_type": "Hatchback",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / CNG / Electric",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Hatchback)"
   },
   {
     "id": "car_0259",
@@ -5453,7 +6748,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Toyota Hilux.jpg"
     ],
-    "catalog_idx": 259
+    "catalog_idx": 259,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0260",
@@ -5467,7 +6767,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Toyota Innova Crysta.jpg"
     ],
-    "catalog_idx": 260
+    "catalog_idx": 260,
+    "body_type": "MUV / MPV",
+    "seating_capacity": "7-Seater / 8-Seater",
+    "fuel_options": "Petrol / Diesel / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (MUV / MPV)"
   },
   {
     "id": "car_0261",
@@ -5481,7 +6786,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Toyota Innova Hycross.jpg"
     ],
-    "catalog_idx": 261
+    "catalog_idx": 261,
+    "body_type": "MUV / MPV",
+    "seating_capacity": "7-Seater / 8-Seater",
+    "fuel_options": "Petrol / Diesel / Hybrid / CNG",
+    "powertrain_type": "Self-Charging Strong Hybrid",
+    "market_segment": "Indian Automotive Market (MUV / MPV)"
   },
   {
     "id": "car_0262",
@@ -5495,7 +6805,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Toyota Land Cruiser.jpg"
     ],
-    "catalog_idx": 262
+    "catalog_idx": 262,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0263",
@@ -5509,7 +6824,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Toyota Urban Cruiser Hyryder.jpg"
     ],
-    "catalog_idx": 263
+    "catalog_idx": 263,
+    "body_type": "Mid-Size SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel / Strong Hybrid",
+    "powertrain_type": "Self-Charging Strong Hybrid",
+    "market_segment": "Indian Automotive Market (Mid-Size SUV)"
   },
   {
     "id": "car_0264",
@@ -5523,7 +6843,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Toyota Vellfire.jpg"
     ],
-    "catalog_idx": 264
+    "catalog_idx": 264,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0265",
@@ -5537,7 +6862,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volkswagen Ameo.jpg"
     ],
-    "catalog_idx": 265
+    "catalog_idx": 265,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0266",
@@ -5551,7 +6881,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volkswagen Beetle.jpg"
     ],
-    "catalog_idx": 266
+    "catalog_idx": 266,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0267",
@@ -5565,7 +6900,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volkswagen GTI.jpg"
     ],
-    "catalog_idx": 267
+    "catalog_idx": 267,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0268",
@@ -5579,7 +6919,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volkswagen ID.4.jpg"
     ],
-    "catalog_idx": 268
+    "catalog_idx": 268,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0269",
@@ -5593,7 +6938,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volkswagen Jetta 2017.jpg"
     ],
-    "catalog_idx": 269
+    "catalog_idx": 269,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0270",
@@ -5607,7 +6957,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volkswagen Passat.jpg"
     ],
-    "catalog_idx": 270
+    "catalog_idx": 270,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0271",
@@ -5621,7 +6976,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volkswagen Phaeton.jpg"
     ],
-    "catalog_idx": 271
+    "catalog_idx": 271,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0272",
@@ -5635,7 +6995,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volkswagen Polo (GT).jpg"
     ],
-    "catalog_idx": 272
+    "catalog_idx": 272,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0273",
@@ -5649,7 +7014,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volkswagen Taigun.jpg"
     ],
-    "catalog_idx": 273
+    "catalog_idx": 273,
+    "body_type": "Mid-Size SUV",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel / Strong Hybrid",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Mid-Size SUV)"
   },
   {
     "id": "car_0274",
@@ -5663,7 +7033,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volkswagen Tiguan.jpg"
     ],
-    "catalog_idx": 274
+    "catalog_idx": 274,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0275",
@@ -5677,7 +7052,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volkswagen Touareg.jpg"
     ],
-    "catalog_idx": 275
+    "catalog_idx": 275,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0276",
@@ -5691,7 +7071,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volkswagen Vento.jpg"
     ],
-    "catalog_idx": 276
+    "catalog_idx": 276,
+    "body_type": "Indian Market Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Diesel",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Indian Market Vehicle)"
   },
   {
     "id": "car_0277",
@@ -5705,7 +7090,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volkswagen Virtus.jpg"
     ],
-    "catalog_idx": 277
+    "catalog_idx": 277,
+    "body_type": "Sedan",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Petrol / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Sedan)"
   },
   {
     "id": "car_0278",
@@ -5719,7 +7109,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volvo S90.jpg"
     ],
-    "catalog_idx": 278
+    "catalog_idx": 278,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0279",
@@ -5733,7 +7128,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volvo XC40 Recharge.jpg"
     ],
-    "catalog_idx": 279
+    "catalog_idx": 279,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0280",
@@ -5747,7 +7147,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volvo XC40.jpg"
     ],
-    "catalog_idx": 280
+    "catalog_idx": 280,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0281",
@@ -5761,7 +7166,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volvo XC60.jpg"
     ],
-    "catalog_idx": 281
+    "catalog_idx": 281,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0282",
@@ -5775,7 +7185,12 @@
     "exemplars": [
       "Indian Car Recommendation System\\All car images\\Volvo XC90.jpg"
     ],
-    "catalog_idx": 282
+    "catalog_idx": 282,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0283",
@@ -6801,7 +8216,12 @@
       "Cars Dataset\\test\\Audi\\994.jpg",
       "Cars Dataset\\test\\Audi\\998.jpg"
     ],
-    "catalog_idx": 283
+    "catalog_idx": 283,
+    "body_type": "Luxury Vehicle",
+    "seating_capacity": "5-Seater",
+    "fuel_options": "Turbo-Petrol / Mild-Hybrid / EV",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Luxury Vehicle)"
   },
   {
     "id": "car_0284",
@@ -7199,7 +8619,12 @@
       "Cars Dataset\\test\\Rolls Royce\\91.jpg",
       "Cars Dataset\\test\\Rolls Royce\\96.jpg"
     ],
-    "catalog_idx": 284
+    "catalog_idx": 284,
+    "body_type": "Ultra-Luxury Flagship",
+    "seating_capacity": "4-Seater Executive",
+    "fuel_options": "Twin-Turbo V12 / Hybrid",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (Ultra-Luxury Flagship)"
   },
   {
     "id": "car_0285",
@@ -8177,6 +9602,11 @@
       "Cars Dataset\\test\\Toyota Innova\\994.jpg",
       "Cars Dataset\\test\\Toyota Innova\\998.jpg"
     ],
-    "catalog_idx": 285
+    "catalog_idx": 285,
+    "body_type": "MUV / MPV",
+    "seating_capacity": "7-Seater / 8-Seater",
+    "fuel_options": "Petrol / Diesel / Hybrid / CNG",
+    "powertrain_type": "ICE (Internal Combustion Engine)",
+    "market_segment": "Indian Automotive Market (MUV / MPV)"
   }
 ]

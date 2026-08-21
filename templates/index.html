@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,600;0,700;1,700&family=Orbitron:wght@500;700;900&family=Press+Start+2P&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=VT323&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/static/style.css?v=3.0.0">
+    <link rel="stylesheet" href="/static/style.css?v=3.2.0">
 </head>
 <body class="crt-scanlines">
     <!-- TOP STATUS BAR -->
@@ -132,6 +132,24 @@
                                 <div class="hud-value-large" id="resMakeModel">MAHINDRA THAR</div>
                             </div>
 
+                            <!-- VEHICLE SPECIFICATIONS TELEMETRY -->
+                            <div class="hud-box specs-box">
+                                <div class="specs-grid">
+                                    <div class="spec-item">
+                                        <span class="spec-lbl">BODY STYLE:</span>
+                                        <span class="spec-val" id="resBodyStyle">Compact SUV</span>
+                                    </div>
+                                    <div class="spec-item">
+                                        <span class="spec-lbl">SEATING:</span>
+                                        <span class="spec-val" id="resSeating">5-Seater</span>
+                                    </div>
+                                    <div class="spec-item">
+                                        <span class="spec-lbl">POWERTRAIN:</span>
+                                        <span class="spec-val" id="resFuel">Petrol / Diesel</span>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="hud-metric-card">
                                 <div class="metric-header">
                                     <span class="m-label">CONFIDENCE MATCH:</span>
@@ -200,6 +218,6 @@
         <p>&gt; CYBER-DETECT // INDIAN AUTOMOBILE CLASSIFIER &lt;</p>
     </footer>
 
-    <script src="/static/app.js?v=3.0.0"></script>
+    <script src="/static/app.js?v=3.2.0"></script>
 </body>
 </html>
