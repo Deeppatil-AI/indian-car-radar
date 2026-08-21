@@ -1,0 +1,47 @@
+[
+  {
+    "architecture": "YOLOv8 + DINOv2 ViT (ArcFace Metric)",
+    "family": "Vision Transformer + Metric Head",
+    "params": "22.1 M",
+    "latency": "4.2 ms",
+    "top1_test": "98.85%",
+    "top5_test": "99.42%",
+    "key_strength": "Color-invariant geometric patch tokens + angular margin"
+  },
+  {
+    "architecture": "ConvNeXt-Tiny",
+    "family": "Modernized Pure-ConvNet",
+    "params": "28.6 M",
+    "latency": "3.8 ms",
+    "top1_test": "97.31%",
+    "top5_test": "99.23%",
+    "key_strength": "7x7 depthwise convolutions + large receptive field"
+  },
+  {
+    "architecture": "EfficientNet-V2-S",
+    "family": "Fused-MBConv Progressive",
+    "params": "21.5 M",
+    "latency": "3.2 ms",
+    "top1_test": "96.54%",
+    "top5_test": "98.85%",
+    "key_strength": "High parameter efficiency + fine-grained texture capture"
+  },
+  {
+    "architecture": "DenseNet-121",
+    "family": "Dense Connection Hierarchy",
+    "params": "8.0 M",
+    "latency": "5.1 ms",
+    "top1_test": "94.62%",
+    "top5_test": "98.08%",
+    "key_strength": "Deep feature reuse across all layer hierarchies"
+  },
+  {
+    "architecture": "ResNet-50 (Baseline)",
+    "family": "Deep Residual Network",
+    "params": "25.6 M",
+    "latency": "3.4 ms",
+    "top1_test": "93.85%",
+    "top5_test": "97.69%",
+    "key_strength": "Established baseline standard"
+  }
+]
