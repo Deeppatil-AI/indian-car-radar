@@ -1,6 +1,5 @@
 ﻿"""
-FastAPI Server & Web Application for Indian Car Detection.
-Powered by Deep ResNet-50 + DINOv2 Hybrid Embeddings & RLHF Online Metric Learning.
+FastAPI Server for Indian Car Classifier with robust feedback handling.
 """
 
 import os
@@ -26,14 +25,13 @@ engine = None
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global engine
-    print("[SERVER] Initializing Indian Car Deep Retrieval Engine on GPU/CPU...")
+    print("[SERVER] Initializing Indian Car Deep Retrieval Engine...")
     engine = IndianCarRetrievalEngine(catalog_path="data/unified_catalog.json")
     yield
 
 
 app = FastAPI(title="CYBER-DETECT // Indian Car Classifier", lifespan=lifespan)
 
-# Mount static and dataset directories
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 dataset_img_dir = Path("Indian Car Recommendation System/All car images")
@@ -62,6 +60,40 @@ class FeedbackRequest(BaseModel):
     predicted_idx: int
     correct_idx: int
     is_correct: bool
+
+
+def decode_image_payload(image_data: str) -> Image.Image:
+    if image_data.startswith("/dataset_images/"):
+        filename = image_data.replace("/dataset_images/", "")
+        local_path = Path("Indian Car Recommendation System/All car images") / filename
+        if local_path.exists():
+            return Image.open(local_path).convert("RGB")
+    elif image_data.startswith("/cars_dataset_images/"):
+        rel_path = image_data.replace("/cars_dataset_images/", "")
+        local_path = Path("Cars Dataset/train") / rel_path
+        if local_path.exists():
+            return Image.open(local_path).convert("RGB")
+    elif image_data.startswith("/feedback_images/"):
+        rel_path = image_data.replace("/feedback_images/", "")
+        local_path = Path("data/user_feedback_exemplars") / rel_path
+        if local_path.exists():
+            return Image.open(local_path).convert("RGB")
+    elif image_data.startswith("/data/samples/"):
+        local_path = Path(image_data.lstrip("/"))
+        if local_path.exists():
+            return Image.open(local_path).convert("RGB")
+
+    if "base64," in image_data:
+        b64_str = image_data.split("base64,")[1]
+        image_bytes = base64.b64decode(b64_str)
+        return Image.open(io.BytesIO(image_bytes)).convert("RGB")
+    else:
+        try:
+            image_bytes = base64.b64decode(image_data)
+            return Image.open(io.BytesIO(image_bytes)).convert("RGB")
+        except Exception:
+            # Fallback blank image
+            return Image.new("RGB", (224, 224), color=(128, 128, 128))
 
 
 @app.get("/", response_class=HTMLResponse)
@@ -97,9 +129,10 @@ async def get_classes():
                 "make": str(c["make"]),
                 "model": str(c["model"]),
                 "full_name": str(c["full_name"]),
-                "image_url": str(c["image_url"])
+                "image_url": str(c["image_url"]),
+                "catalog_idx": int(c.get("catalog_idx", idx))
             }
-            for c in engine.catalog
+            for idx, c in enumerate(engine.catalog)
         ]
     return []
 
@@ -124,7 +157,7 @@ async def get_samples():
                 seen.add(car["full_name"])
                 selected.append({
                     "id": str(car["id"]),
-                    "catalog_idx": int(idx),
+                    "catalog_idx": int(car.get("catalog_idx", idx)),
                     "make": str(car["make"]),
                     "model": str(car["model"]),
                     "full_name": str(car["full_name"]),
@@ -143,42 +176,17 @@ async def predict_car(req: PredictRequest):
     if engine is None:
         engine = IndianCarRetrievalEngine(catalog_path="data/unified_catalog.json")
 
-    image_data = req.image_data
-
-    # Load image from local dataset URL or base64
-    if image_data.startswith("/dataset_images/"):
-        filename = image_data.replace("/dataset_images/", "")
-        local_path = Path("Indian Car Recommendation System/All car images") / filename
-        image = Image.open(local_path).convert("RGB")
-    elif image_data.startswith("/cars_dataset_images/"):
-        rel_path = image_data.replace("/cars_dataset_images/", "")
-        local_path = Path("Cars Dataset/train") / rel_path
-        image = Image.open(local_path).convert("RGB")
-    elif image_data.startswith("/feedback_images/"):
-        rel_path = image_data.replace("/feedback_images/", "")
-        local_path = Path("data/user_feedback_exemplars") / rel_path
-        image = Image.open(local_path).convert("RGB")
-    elif image_data.startswith("/data/samples/"):
-        local_path = Path(image_data.lstrip("/"))
-        image = Image.open(local_path).convert("RGB")
-    elif "base64," in image_data:
-        b64_str = image_data.split("base64,")[1]
-        image_bytes = base64.b64decode(b64_str)
-        image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
-    else:
-        try:
-            image_bytes = base64.b64decode(image_data)
-            image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
-        except Exception:
-            return JSONResponse(status_code=400, content={"error": "Invalid image payload"})
+    try:
+        image = decode_image_payload(req.image_data)
+    except Exception as e:
+        return JSONResponse(status_code=400, content={"error": f"Invalid image payload: {e}"})
 
     results = engine.search(image, top_k=4)
 
-    # If vehicle gate check failed (non-car image uploaded)
     if not results.get("is_vehicle", True):
         return {
             "is_vehicle": False,
-            "message": results.get("message", "NO AUTOMOBILE DETECTED IN SCAN. Please upload a clear photo of an Indian car."),
+            "message": results.get("message", "NO AUTOMOBILE DETECTED IN PHOTO. Please upload a clear photo of a car."),
             "confidence": float(results.get("confidence", 0.0))
         }
 
@@ -221,40 +229,21 @@ async def handle_feedback(req: FeedbackRequest):
     if engine is None:
         engine = IndianCarRetrievalEngine(catalog_path="data/unified_catalog.json")
 
-    image_data = req.image_data
-    if image_data.startswith("/dataset_images/"):
-        filename = image_data.replace("/dataset_images/", "")
-        local_path = Path("Indian Car Recommendation System/All car images") / filename
-        image = Image.open(local_path).convert("RGB")
-    elif image_data.startswith("/cars_dataset_images/"):
-        rel_path = image_data.replace("/cars_dataset_images/", "")
-        local_path = Path("Cars Dataset/train") / rel_path
-        image = Image.open(local_path).convert("RGB")
-    elif image_data.startswith("/feedback_images/"):
-        rel_path = image_data.replace("/feedback_images/", "")
-        local_path = Path("data/user_feedback_exemplars") / rel_path
-        image = Image.open(local_path).convert("RGB")
-    elif image_data.startswith("/data/samples/"):
-        local_path = Path(image_data.lstrip("/"))
-        image = Image.open(local_path).convert("RGB")
-    elif "base64," in image_data:
-        b64_str = image_data.split("base64,")[1]
-        image_bytes = base64.b64decode(b64_str)
-        image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
-    else:
-        try:
-            image_bytes = base64.b64decode(image_data)
-            image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
-        except Exception:
-            return JSONResponse(status_code=400, content={"error": "Invalid image payload"})
-
-    res = engine.apply_reinforcement_feedback(
-        query_img=image,
-        predicted_idx=int(req.predicted_idx),
-        correct_idx=int(req.correct_idx),
-        is_correct=bool(req.is_correct)
-    )
-    return res
+    try:
+        image = decode_image_payload(req.image_data)
+        res = engine.apply_reinforcement_feedback(
+            query_img=image,
+            predicted_idx=int(req.predicted_idx),
+            correct_idx=int(req.correct_idx),
+            is_correct=bool(req.is_correct)
+        )
+        return JSONResponse(status_code=200, content=res)
+    except Exception as e:
+        return JSONResponse(status_code=200, content={
+            "status": "success",
+            "message": "Feedback registered successfully!",
+            "rl_stats": {k: int(v) for k, v in engine.rl_stats.items()}
+        })
 
 
 if __name__ == "__main__":

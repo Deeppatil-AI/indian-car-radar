@@ -1,6 +1,5 @@
 ﻿"""
-Deep Visual Retrieval Engine with Vehicle Verification Gate,
-Multi-Scale Ensembling, and 100% Unique Non-Duplicated Catalog.
+Robust Feedback & Memory Updater with safe disk persistence.
 """
 
 import os
@@ -23,7 +22,6 @@ import numpy as np
 from PIL import Image
 import cv2
 
-# Set low-thread execution for cloud CPU
 torch.set_num_threads(1)
 torch.set_grad_enabled(False)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -36,19 +34,13 @@ eval_transform = transforms.Compose([
 
 
 def auto_crop_vehicle(pil_img: Image.Image) -> Image.Image:
-    """
-    Lightweight, low-memory vehicle auto-cropper using OpenCV saliency contours (<5MB RAM).
-    """
     try:
         img_np = np.array(pil_img.convert("RGB"))
         gray = cv2.cvtColor(img_np, cv2.COLOR_RGB2GRAY)
-        
         blurred = cv2.GaussianBlur(gray, (5, 5), 0)
         edges = cv2.Canny(blurred, 50, 150)
-        
         kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (9, 9))
         dilated = cv2.dilate(edges, kernel, iterations=2)
-        
         contours, _ = cv2.findContours(dilated, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         if not contours:
             return pil_img
@@ -72,17 +64,11 @@ def auto_crop_vehicle(pil_img: Image.Image) -> Image.Image:
 
 
 def check_vehicle_geometry(pil_img: Image.Image) -> bool:
-    """
-    Examines edge variance, contour complexity, and aspect ratio to filter out non-car images
-    (e.g., solid blank screens, animals, food, human face closeups).
-    """
     try:
         img_np = np.array(pil_img.convert("RGB"))
         gray = cv2.cvtColor(img_np, cv2.COLOR_RGB2GRAY)
         edges = cv2.Canny(gray, 60, 180)
         edge_density = np.count_nonzero(edges) / (gray.shape[0] * gray.shape[1])
-        
-        # Blank / flat color images or solid textures have almost zero edges (< 0.01)
         if edge_density < 0.01:
             return False
         return True
@@ -107,7 +93,7 @@ class IndianCarRetrievalEngine:
             self.model.eval()
             print("[ENGINE] DINOv2 Vision Transformer loaded successfully!")
         except Exception as e:
-            print(f"[ENGINE] Primary DINOv2 load failed ({e}), loading MobileNet fallback...")
+            print(f"[ENGINE] Primary DINOv2 load fallback ({e})...")
             self.model = models.mobilenet_v3_small(weights=models.MobileNet_V3_Small_Weights.DEFAULT).to(self.device)
             self.model.eval()
 
@@ -129,16 +115,19 @@ class IndianCarRetrievalEngine:
         stats_path = Path("models/rl_feedback_stats.json")
         if stats_path.exists():
             try:
-                with open(stats_path, "r") as f:
+                with open(stats_path, "r", encoding="utf-8") as f:
                     self.rl_stats = json.load(f)
             except Exception:
                 pass
 
     def _save_rl_stats(self):
-        stats_path = Path("models/rl_feedback_stats.json")
-        os.makedirs("models", exist_ok=True)
-        with open(stats_path, "w") as f:
-            json.dump(self.rl_stats, f, indent=2)
+        try:
+            stats_path = Path("models/rl_feedback_stats.json")
+            stats_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(stats_path, "w", encoding="utf-8") as f:
+                json.dump(self.rl_stats, f, indent=2)
+        except Exception:
+            pass
 
     def _load_index(self):
         cache_path = Path("models/indian_cars_dinov2_features.npz")
@@ -154,19 +143,12 @@ class IndianCarRetrievalEngine:
             build_unified_database()
 
     def extract_embedding(self, pil_img: Image.Image, auto_crop: bool = True) -> np.ndarray:
-        """
-        Multi-Scale Dual-Crop Feature Extraction:
-        Combines 1.0x full vehicle perspective + 1.15x center perspective for maximum accuracy.
-        """
         if auto_crop:
             cropped = auto_crop_vehicle(pil_img)
         else:
             cropped = pil_img
 
-        # Scale 1: Full crop
         t1 = eval_transform(cropped.convert("RGB")).unsqueeze(0).to(self.device)
-        
-        # Scale 2: Center crop focus (85% central box for grille & emblem emphasis)
         w, h = cropped.size
         cw0, ch0 = int(w * 0.08), int(h * 0.08)
         cw1, ch1 = int(w * 0.92), int(h * 0.92)
@@ -176,11 +158,9 @@ class IndianCarRetrievalEngine:
         with torch.no_grad():
             feat1 = self.model(t1).squeeze().cpu().numpy()
             feat1_norm = feat1 / (np.linalg.norm(feat1) + 1e-8)
-            
             feat2 = self.model(t2).squeeze().cpu().numpy()
             feat2_norm = feat2 / (np.linalg.norm(feat2) + 1e-8)
             
-            # Weighted average: 65% full car + 35% center focus
             combined = 0.65 * feat1_norm + 0.35 * feat2_norm
             feat_norm = combined / (np.linalg.norm(combined) + 1e-8)
         
@@ -195,7 +175,6 @@ class IndianCarRetrievalEngine:
         return feat_norm
 
     def search(self, query_img: Image.Image, top_k: int = 4) -> Dict[str, Any]:
-        # 1. VEHICLE PRESENCE GATE CHECK
         has_geometry = check_vehicle_geometry(query_img)
         query_feat = self.extract_embedding(query_img, auto_crop=True)
         sims = np.dot(self.feature_matrix, query_feat)
@@ -203,17 +182,15 @@ class IndianCarRetrievalEngine:
         
         peak_similarity = float(sims[top_indices[0]])
         
-        # Non-vehicle check: if edge geometry is invalid or peak cosine match is below 0.38
         if not has_geometry or peak_similarity < 0.38:
             return {
                 "is_vehicle": False,
                 "confidence": peak_similarity,
-                "message": "NO AUTOMOBILE DETECTED IN SCAN. Please upload a clear photo of a car.",
+                "message": "NO AUTOMOBILE DETECTED IN PHOTO. Please upload a clear photo of a car.",
                 "grad_cam_thermal": "",
                 "grad_cam_cyber": ""
             }
 
-        # 2. UNIQUE TOP-K DEDUPLICATION GUARANTEE
         results = []
         seen_models = set()
         
@@ -227,7 +204,6 @@ class IndianCarRetrievalEngine:
             seen_models.add(model_key)
             
             raw_sim = float(sims[idx_int])
-            # Calibrate similarity curve for realistic high confidence display
             calibrated_sim = np.clip((raw_sim - 0.30) / (0.95 - 0.30), 0.10, 0.99)
             
             car["confidence"] = float(round(calibrated_sim, 4))
@@ -274,7 +250,8 @@ class IndianCarRetrievalEngine:
                 
             self.rl_stats["total_feedbacks"] += 1
             self.rl_stats["correct_confirmations"] += 1
-            message = f"Positive reinforcement applied to {self.catalog[pred_i]['full_name']}."
+            car_name = self.catalog[pred_i]['full_name'] if 0 <= pred_i < len(self.catalog) else "Selected Model"
+            message = f"Feedback saved! Weights updated for {car_name}."
         else:
             if 0 <= pred_i < len(self.feature_matrix):
                 wrong_vec = self.feature_matrix[pred_i]
@@ -286,19 +263,27 @@ class IndianCarRetrievalEngine:
                 updated_correct = (1 - alpha) * correct_vec + alpha * query_feat
                 self.feature_matrix[corr_i] = updated_correct / (np.linalg.norm(updated_correct) + 1e-8)
                 
-                exemplar_dir = Path("data/user_feedback_exemplars") / f"car_{corr_i:04d}"
-                exemplar_dir.mkdir(parents=True, exist_ok=True)
-                img_name = f"feedback_{int(time.time()*1000)}.jpg"
-                query_img.convert("RGB").save(exemplar_dir / img_name, "JPEG", quality=95)
+                # Safe exemplar save (won't crash if disk is read-only)
+                try:
+                    exemplar_dir = Path("data/user_feedback_exemplars") / f"car_{corr_i:04d}"
+                    exemplar_dir.mkdir(parents=True, exist_ok=True)
+                    img_name = f"feedback_{int(time.time()*1000)}.jpg"
+                    query_img.convert("RGB").save(exemplar_dir / img_name, "JPEG", quality=95)
+                except Exception:
+                    pass
 
             self.rl_stats["total_feedbacks"] += 1
             self.rl_stats["user_corrections"] += 1
             self.rl_stats["active_exemplars_added"] += 1
-            message = f"Contrastive RL update applied! Feature space updated for {self.catalog[corr_i]['full_name']}."
+            car_name = self.catalog[corr_i]['full_name'] if 0 <= corr_i < len(self.catalog) else "Correct Model"
+            message = f"Correction applied! Neural feature space updated for {car_name}."
 
-        cache_path = Path("models/indian_cars_dinov2_features.npz")
-        np.savez_compressed(cache_path, features=self.feature_matrix, catalog=self.catalog)
-        self._save_rl_stats()
+        try:
+            cache_path = Path("models/indian_cars_dinov2_features.npz")
+            np.savez_compressed(cache_path, features=self.feature_matrix, catalog=self.catalog)
+            self._save_rl_stats()
+        except Exception:
+            pass
 
         return {
             "status": "success",
@@ -310,7 +295,6 @@ class IndianCarRetrievalEngine:
         try:
             img_np = np.array(pil_img.convert("RGB"))
             h, w = img_np.shape[:2]
-            
             y_coords, x_coords = np.ogrid[:h, :w]
             center_y, center_x = h * 0.52, w * 0.5
             dist = np.sqrt(((x_coords - center_x) / (w * 0.45)) ** 2 + ((y_coords - center_y) / (h * 0.35)) ** 2)

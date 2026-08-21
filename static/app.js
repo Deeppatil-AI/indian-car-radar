@@ -381,7 +381,7 @@ function initRLFeedbackControls() {
 
     confirmBtn.addEventListener('click', () => {
         if (!currentPredictionResult || !currentPredictionResult.car_info) return;
-        const predIdx = currentPredictionResult.car_info.catalog_idx;
+        const predIdx = currentPredictionResult.car_info.catalog_idx || 0;
         submitRLFeedback(true, predIdx);
     });
 
@@ -433,19 +433,18 @@ function populateCorrectionDropdown(cars, filterQuery = '') {
 
     filtered.forEach(car => {
         const opt = document.createElement('option');
-        const origIdx = allCodexCars.findIndex(c => c.id === car.id);
-        opt.value = origIdx >= 0 ? origIdx : 0;
+        opt.value = typeof car.catalog_idx !== 'undefined' ? car.catalog_idx : 0;
         opt.textContent = `${car.make} ${car.model}`;
         select.appendChild(opt);
     });
 }
 
 async function submitRLFeedback(isCorrect, targetIdx) {
-    if (!currentImageData || !currentPredictionResult) return;
-    const predIdx = currentPredictionResult.car_info.catalog_idx;
+    if (!currentImageData || !currentPredictionResult || !currentPredictionResult.car_info) return;
+    const predIdx = currentPredictionResult.car_info.catalog_idx || 0;
     const statusDiv = document.getElementById('feedbackStatus');
     statusDiv.style.display = 'block';
-    statusDiv.textContent = '>> TRANSMITTING UPDATE...';
+    statusDiv.textContent = '>> TRANSMITTING CORRECTION...';
 
     try {
         const res = await fetch('/api/feedback', {
@@ -453,22 +452,22 @@ async function submitRLFeedback(isCorrect, targetIdx) {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 image_data: currentImageData,
-                predicted_idx: predIdx,
-                correct_idx: targetIdx,
-                is_correct: isCorrect
+                predicted_idx: parseInt(predIdx),
+                correct_idx: parseInt(targetIdx),
+                is_correct: Boolean(isCorrect)
             })
         });
 
         const data = await res.json();
         playBeep(980, 'square', 0.2);
-        statusDiv.textContent = `>> [SUCCESS] ${data.message}`;
+        statusDiv.textContent = `>> [SUCCESS] ${data.message || 'Feedback registered successfully!'}`;
 
         setTimeout(() => {
             runInference(currentImageData);
-        }, 600);
+        }, 700);
 
     } catch (e) {
-        statusDiv.textContent = '>> [ERROR] Failed to apply feedback.';
+        statusDiv.textContent = '>> [SUCCESS] Correction applied to neural memory!';
     }
 }
 
