@@ -1,0 +1,9 @@
+{
+  "total_raw": 4462,
+  "total_unique": 3752,
+  "duplicates_removed": 710,
+  "classes_count": 286,
+  "train_count": 2700,
+  "val_count": 532,
+  "test_count": 520
+}

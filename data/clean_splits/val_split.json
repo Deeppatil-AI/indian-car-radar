@@ -1,0 +1,3726 @@
+[
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\426.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "17cbb88b9713a85cea78cc4388f74024",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\361.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "76cdf90444cffe58663072a9a2ef476f",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\939.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "4026314b80f90ad46f2f9c5b0895207f",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\295.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "4ca4ed1ed92382759419db07d97678cb",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\381.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "07d2ecd1015d2edce87a5592e6a2408e",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\823.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "6af5bfc0e3fa3b8edc27c9f01a933a1b",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\670.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "0daa161974d27812549793034cec8fec",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1113.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "78650ef40685677e8a760080c3f0e753",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1305.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "4fa9f6379716726253ba60ea92be0c16",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\357.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "f4eae11be06a7085f073437faf06e8a0",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\48.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "37819f9430756603d76a55f1abfb3955",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\155.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "d91b72fd11e7386d696329d9eb6bf498",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\432.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "6f26394f85af60501ab058d30b876bb9",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\643.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "0b70aedcd785e046172ba805e8e85cb1",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\638.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "6bc16aa213866a58a7157474878dfbec",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1232.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "147975f99fe5033ebbe63eedbf64960d",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\936.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "ffb039f01762de7443fa82de184e6976",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1346.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "dac693323031834f7652ce6160143240",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\952.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "09681b94ee459a9ffaa82de815f5137c",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\839.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "ae514543ea2e97948037729de2240fc0",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\199.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "23b65293e6b487430cf75b87c4bddf57",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\15.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "4ae9799a6146c51021a92f4423619966",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\50.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "c846e97133570500d89397c195218b22",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\906.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "91c6fd333d362333783610b39d1e0593",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\27.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "5dd3e4760656ee091a0b4839906b924d",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\195.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "cb63e7b8660e48aa2d6532ed421781db",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1078.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "8b185108dda5272b7dd359d6ed449d30",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\209.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "6a35218381a3f60624e5595085c6a2ce",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1068.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "b1df4e3bd0750a9ef51e8287c34195ed",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\715.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "6376a4460ff5e7d70ba097bf46f8b43b",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\889.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "1ede19a6b55f6c51c093163a30baef68",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1081.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "5dc93c9f2b9bafb0a3598ca7e3f93afe",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1006.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "15cc61724bb46acd380b5437f8dcbf49",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\837.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "9a8dcc96d56896d9a07bdd6af8fc0817",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\303.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "cf565c04ccf86c8aa518864182617545",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\140.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "f96d89a84a4b32d1036d62ba969fa7ec",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\616.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "f47725e47704c22742157320d2c1fac9",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\661.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "8345e7442dbeddc29e7a9df0cdf330a2",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\102.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "0242f4cc4c296387b2accc96dfc3ca60",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\278.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "8b621a782adda8fe3afeacf06848a17a",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\1103.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "c1ce904ca8f22d6dfa0e6aa848da49ac",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\136.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "b3f8b2dfd6fddf83b42bc76fdcb06a19",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\16.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "5a7e7d60f823aae748b2a2dc25df1fd5",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1216.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "ab24a3b82562d4d06b9e55cf2854d8ef",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\407.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "0a09caafbed17a8975b4c795b6ec8d8c",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\56.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "87690818aee2a4a0815d1ff9c783a63f",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\390.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "65b3c5b5c0e48da6608a2d648fd5d462",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\979.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "b323e53a5562f74e63bd15d259aa2344",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\856.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "4773ac22f3cec07ddf1784b8815bf1b1",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\840.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "525cd7dfbdee11ab798c83c86a178e98",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\1274.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "97274a75ae017f5b3031e9c50ff4b28c",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\249.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "45ab7b873674ade6cedb964bbe1cfb6a",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\895.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "21ea14d356213278f4b227ac74d33f36",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1320.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "005808992a41c1a6afc77fcfc8764f77",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\862.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "8d89f4b872d5ad8cbd102c672508b37c",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\632.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "3f2df227317d43b34fd977bb17abb5d8",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\973.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "cd2ace98136974cdebbc790aa5105a69",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\141.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "c3eb9935c0bca78ac9ab1b7de4b83f0f",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\374.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "54860ccf65c1b4a505e5bd3267a39c40",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\687.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "40dc9d24145a692d2e606a78ec80a756",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\582.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "7803f792112f6a2a98de0df9e14a1b28",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\666.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "3df93c272eadbc61ea94bc6a66c64734",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1269.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "8c31bf5d896468936264394340585e9f",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\606.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "b80f8cd2de68f565ead68c5548be9f96",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\434.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "ca617ec1cabd401ccaec466c423e3050",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\825.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "4ca1cb07cd6daaf859c82183edaf9c14",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1229.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "e98ed495a7079301a920e056a1ed9d1f",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1223.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "1cb7a10c95238bb76c6905d77ba61ddc",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\588.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "3b1028510c45a24778a110013fb4529c",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1079.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "013dfe21daa33d635d020321c925e583",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\45.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "2d865e85cfc4b97ab16337bcb64a1c57",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\916.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "480c562437bfb7fa4317145e07f37c0c",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1100.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "5ef45655a23d7bcca27fb54e9a7e18d0",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\604.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "e2b89b77b74e934ffcea68a32b33befd",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\138.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "c8544db8753369728f3520a414355708",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\153.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "9faf8cde3531880d2d3194bb0cfe75a7",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1067.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "e2053d57ead9e8caa660d231656276a2",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\152.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "8aad8063cf170422fcc37fdae4a6e91d",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\237.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "1b32081f46bb829a3729753cd54832c7",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\304.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "0f7c3000a062f5dc77b3462324754837",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\1027.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "1760e2ee9ff9ec745bd4cc3f2d6ef2aa",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1018.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "3cf564420a4dcd9b5e7ce3b6a5cf226a",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\453.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "7d2e99cde8e24eb2e028bbafa0f195d0",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\263.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "9377e717c23aae3cdf5502092f57b208",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\676.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "97e631372fe5a491622c78c64f1d5090",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "1bd6b972836579002c3f48af1c55487a",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\586.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "fc05356e0a1d4a4cbee7f41a0f635fa9",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\595.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "6f766d1f8f04ee1783854608727e52d7",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1265.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "ab28e2276b2e16de0336a383796482c8",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\995.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "39cc378aa85e88890828eca2d4e79d34",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\318.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "b313a3db1a40e8a8b3818e7aed32914e",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\1220.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "4b97c3948a9dabc70cd6a984bf25198f",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\87.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "6f74cc7cdcdcee1d91b4089564ec0839",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\569.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "95da0e65421be3fa2cad7577d1178454",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\991.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "78b22323f00c7bad4a14e17edb4a6c25",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\998.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "34727416bcfa940aeaae9ded4167ed78",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\224.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "8ee49022a7ffe501ae0fed8bfccf2a66",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\71.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "dcad70cd31ef114614586d218c786b4a",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\118.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "d8616bf8d5c7e8c99424020152ed3549",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\474.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "5388b919a8121244bb9afccc365278e5",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\129.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "984e7b626f40330dcb8445545fc26d28",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\953.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "fd3751224bb7de944b0c32e1e90eef59",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\467.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "8001cace26f618345b5f28cf84dbf545",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\1284.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "48107c4635488ceec47d0e829da6927d",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\902.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "a1a6d61d76ded097fdfc9ac7c75b5c91",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\905.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "39b03d341c5caadd0cf9fa1ba56d1f44",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1001.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "d460a0ef1a0bb5b14fcbd69855120431",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\41.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "4fd63aa738dac615b5ec02140c183015",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\126.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "2c9a92d3dadc0b1a92c215b5dd6e8265",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\386.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "7e219a8c4f81e4a3d31ab0c9a2c0db1d",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\590.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "c0593a6100be628cdea88938766826dc",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\994.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "9c4c0876173111e8fb7e2cce12aa1239",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\698.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "54b027598a431218fa8345af746f692b",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\801.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "e8031dbc50cdae9252ad37ff8aad8023",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\963.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "183ebf773486426ba9f01b48e544e5fb",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\360.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "54ed258a9e04e5f0ac7289827cdc628d",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\94.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "061d812907fb6117e4d04481a781ed38",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\613.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "903a26ecf98ea8bd0b7398b6a3517b07",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\853.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "c8ffb03d870da99eaa9cc7bb65754157",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\121.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "0f479bfa0a649be07183a8b4041ac4b6",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\904.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "cc499c78793a4861cf6484e0dba0f6b6",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\1202.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "051f9ab39037d8d7ce9a22c18b16e6a7",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1010.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "eec5dd149027a495f1ff134f3484db80",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\614.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "d9b515122befe42fa2157f3c70bdb8ec",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\169.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "be16ede7f322a41f260bb3f8d7186366",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\583.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "47556d772c5914eabd65b5903dffc758",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\427.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "eaa67a8432c66183a53616fd179a985a",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\1107.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "1d253fc618f26302d2f00ec563481650",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\33.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "8d3607b0c7c23da5d31de2e2dc0e0901",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\333.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "6b3b3bdbf25fbad0677b401d29f0e905",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1074.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "73fb04059c84a23e162de0dd61cbdd8d",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\671.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "cd17f63428910558184ba641c591b015",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\700.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "8f80668e6e833c3eb1ae3843b15a3470",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\851.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "409adb5d516b4f813ba5a0392fe532af",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\996.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "a865e92ff41b37f6c95c87047f9fd01c",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\719.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "14d0afeaf3741f5270fefb38cf1a2f16",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\711.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "50e61ad5fd21cc730fb92165e56288db",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1254.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "957cb4a094efeaf9b1c290a34b400936",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1201.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "477b0aee6f598588e66a19587a5f68b8",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1053.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "95cc4b7ff4bf07c4a548f2b190752f2a",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\944.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "e84460c48c73288ecea28ce335ade22a",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\111.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "b37173e0d48d61687c33f8313153b949",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\46.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "d0d80cbb86c505028c3b7f38643e7b78",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\476.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "75cfa6b803911b5077e2f4ae708014d5",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\1239.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "bb18cf8b37022e960fe5754ba62813a0",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\232.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "7ad1eb8a47d1eaa05ea8db25b62a698c",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Audi\\565.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "df52f6d549decfb4a51260132bbe1be2",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\346.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "2592cc541bf099a3ae3d5b2e1ac9d352",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\655.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "17c57ffbab9a332413a4c936a41fcc4f",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\379.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "0f097886965ba255af08085b5fefbf67",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\656.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "f41181b60b966482ff7b1d102af2be31",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Audi\\935.jpg",
+    "class_name": "Audi",
+    "source": "Cars Dataset",
+    "hash": "f0de8123dd8700a8986cb7805aa77213",
+    "standard_class": "Audi"
+  },
+  {
+    "image_path": "Indian Car Recommendation System\\All car images\\bugatti veyron.jpg",
+    "class_name": "bugatti veyron",
+    "source": "Indian Recommendation",
+    "hash": "88f5c7745a4a3390c17d150144067437",
+    "standard_class": "Bugatti Veyron"
+  },
+  {
+    "image_path": "Indian Car Recommendation System\\All car images\\Ferrari F8 Tributo.jpg",
+    "class_name": "Ferrari F8 Tributo",
+    "source": "Indian Recommendation",
+    "hash": "3ff2ce95336c0cffc43cd34cecd065cb",
+    "standard_class": "Ferrari F8 Tributo"
+  },
+  {
+    "image_path": "Indian Car Recommendation System\\All car images\\Honda Amaze.jpg",
+    "class_name": "Honda Amaze",
+    "source": "Indian Recommendation",
+    "hash": "55770a225cd17114b93050801fb38926",
+    "standard_class": "Honda Amaze"
+  },
+  {
+    "image_path": "Indian Car Recommendation System\\All car images\\Honda City Hybrid eHEV.jpg",
+    "class_name": "Honda City Hybrid eHEV",
+    "source": "Indian Recommendation",
+    "hash": "eeb8bf08c5de12aba6ead6246ef6cc6b",
+    "standard_class": "Honda City"
+  },
+  {
+    "image_path": "Indian Car Recommendation System\\All car images\\Honda WR-V New.jpg",
+    "class_name": "Honda WR-V New",
+    "source": "Indian Recommendation",
+    "hash": "002cd94b1b2f43a47a6eadcb4ad394e5",
+    "standard_class": "Honda WR-V"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\1.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "8f4bb09c013d3b4db0211e23dbc3f1b4",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\30.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "1e60ed55871f8122a7d03273620ddcaa",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\248.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "33c634ebb552fd7b3f229e8da7112461",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\142.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "cbc3287d6805b74dd6e9f29e7211d685",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Hyundai Creta\\188.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "45ff056479bf5aae6a380ea642b4f946",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Hyundai Creta\\217.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "0e4f34ffb27e17f811d1842006798216",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\213.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "1cfe79c472f6b0e6d47e5c69349e0cda",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\133.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "b8e0c431baec9f9a02f25b1cb7cb8d38",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\272.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "c35fa121b49e1aae307da8a696cc8e9a",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\109.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "9d147ffbc1e67bc9687a91a67a5003dc",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\315.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "77b95edf509b3cdf6f618b743f1453ff",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\385.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "65682ca8ed8d72754caaa138af93afcc",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\246.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "93e87b73c665a7ad0deecb6f42e3d0a3",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\354.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "e77a8e849ecc5644f1f7c5c2b1cf84e9",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\204.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "6da3e21d5ee21076da8b82d65ffd50f4",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\286.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "ea14fca9208073880834435d7b9b7abe",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\365.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "e31d227b3bdf75955cf0f7f07554a1db",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\251.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "e52495918be504d697e333854840fd96",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Hyundai Creta\\81.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "3735e3193c83a30b9d1cc2cf4fafd853",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Hyundai Creta\\328.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "e00019fd7eb39a7ce42b219e56558570",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\138.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "e054947faa9df02d909560b736f397ac",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\358.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "366c36f0496e8ef0728d0bddb0a0410a",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Hyundai Creta\\220.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "7133deedd3d28efc930c7e0c7a4ffd99",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\224.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "3594b5f011b7ae148a8d311076f77a47",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\250.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "2ef470b1f14490cde03d7277d9966310",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\230.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "b1cf28324c30edd5029c534a197b4c19",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\92.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "7700d902d92a034e741dc384593dcd50",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Hyundai Creta\\208.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "50f3366de0b436b6e9d28697d6c0b68a",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\284.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "ba54b274b37e9c3f4165e6834634b29e",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\48.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "44fa30297b689e101193ee1b05397e77",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\344.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "465010d10c21b2c7067b650cee606033",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\264.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "c5a2ef33ac41f1d674b81849a4b3c9c5",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\323.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "0c372a2b7c2cca51ddcb170c3dca69e6",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\169.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "5ae938bc66f67d36529280723ed59b4c",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\201.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "f91e1d23ac6b398abbc52af866368565",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\267.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "2abd29e77488f9761c09c5aee2da6b4a",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\35.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "d7507a69bd06c737270017ff6fb76b5f",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\303.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "6bfc725daaf28626f53ecf0687727b65",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\276.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "0e52779672e1250722916e401582aff6",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\167.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "198746ceb36c709813d5b576194c6e04",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Hyundai Creta\\384.jpg",
+    "class_name": "Hyundai Creta",
+    "source": "Cars Dataset",
+    "hash": "1903756cec1bc6952218f5bc228fed12",
+    "standard_class": "Hyundai Creta"
+  },
+  {
+    "image_path": "Indian Car Recommendation System\\All car images\\Hyundai Venue.jpg",
+    "class_name": "Hyundai Venue",
+    "source": "Indian Recommendation",
+    "hash": "a324f146af24f9f83623437b2106dead",
+    "standard_class": "Hyundai Venue"
+  },
+  {
+    "image_path": "Indian Car Recommendation System\\All car images\\Hyundai i20.jpg",
+    "class_name": "Hyundai i20",
+    "source": "Indian Recommendation",
+    "hash": "35098de7e7b8883b62d425545ce36331",
+    "standard_class": "Hyundai i20"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\342.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "ec0ffcedbc5af81783c2a4df512ffa24",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\293.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "4817fc9c870ba11a30397347ca91e68f",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\423.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "83721fe62494283a090462c378c4c4a0",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Mahindra Scorpio\\83.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "1f198db69f0d4e5eb7a83b69f7bcc65b",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Mahindra Scorpio\\261.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "240fe38cc40a0e1604e6f246c1448acc",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\270.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "faca61b1290a1177f24fb9a7bdc59ecb",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\443.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "a1c1b454199bc430790b0ebbb66bde43",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\155.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "ddc672aa7f44a4c5d88fadacb40e2da4",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Mahindra Scorpio\\400.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "4baf78f16cb2e11018d077822702e288",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\475.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "e00d77fbed322990f7222b59fd971e51",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\334.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "9555e40b0681d54f7b6fa79a0082a76e",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\271.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "123c2ddac649b94d67dd08e8cf9bef5c",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\317.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "fa7d4d034b66897f8861ab7b52bc984c",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\461.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "b39e27d76efaaa76a465448f262b0711",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\372.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "158027bc1d91edacdc4f05f6c74a19e1",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Mahindra Scorpio\\291.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "ef463e367eab0ed84200b4e4d6920f05",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\464.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "d4839ef1987c69f5c01d987c02369f73",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\362.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "a8475512fc17b31e0fcfc6d1ff2de850",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\245.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "be11af351f6e5e26c5af6855aada3db3",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\280.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "72255d73deec24a70b9b4be4068cec8e",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\4.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "80f6ef183e0795a82d366f265eb646ac",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\2.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "d91fa627128935ad134e86e209cb587e",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\286.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "d9449f3d07ada9178974b294bcde236f",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Mahindra Scorpio\\434.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "c0931db872872fe22a5f9aea11aa3a16",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\75.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "340f6a48b440b0ca5ffe052765446206",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\48.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "8b54b434ed7abfff6bb9197f34415183",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\340.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "8bd62c534021e3174e1b1139c3e911ae",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\126.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "445b2fdf2552058a41c4033f654329d1",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\131.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "fab08bfc8b17f4dfb004d3432d3fb255",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\200.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "ac07b77f37672ee8fe94a3c4db0155f6",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\187.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "8d02c185610ea675e4f2c2295cf8c714",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\417.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "93d2b79c3881279a02909ffe396a5b82",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\34.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "372bd3edf5db6777919a6e5d659da6ca",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\456.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "4d7edb6b8da7068ec4a9f39e98d60d67",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\144.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "d22732b12563896826263ad89253258a",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\277.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "440ce4c67e9428384b7974303b1fbe91",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Mahindra Scorpio\\329.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "b56c64c6c3df4ef5a7f6d16cbb3e1d50",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\116.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "b1460bcad3cb3ea28804a5bfdcb97091",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\460.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "11a238ed1d593ac7ae33f7f157ad0075",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\284.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "4a1af74a86143f4a47a0ec83a0b2a05f",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\182.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "e697b42b96cc08e8e4ff685045401fe7",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\389.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "9cf8daafdff172366c3d5c70dcf006f9",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\397.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "0c0af0151a0c5480439f40f09fea0020",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\310.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "50d23b9c42f5405ffbb5afcda9c6796a",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\387.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "1fc1c43e91af4b65c9f012e9632e24a7",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\450.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "eabb4e11c30a15a39691dcbee3c2f8a7",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\194.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "4ce614bf068db3597bb2f2db33cd6cbf",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\94.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "f17c7eb90f96a581a215fba332b7ed79",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\311.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "1ec52a56a646417c39be353b313599fb",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Mahindra Scorpio\\107.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "61b12a35be0a340211c3a6a0fef2ae72",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Mahindra Scorpio\\90.jpg",
+    "class_name": "Mahindra Scorpio",
+    "source": "Cars Dataset",
+    "hash": "e94dc5fc478861aa2b7e77c948ab49b3",
+    "standard_class": "Mahindra Scorpio"
+  },
+  {
+    "image_path": "Indian Car Recommendation System\\All car images\\Mahindra XUV300.jpg",
+    "class_name": "Mahindra XUV300",
+    "source": "Indian Recommendation",
+    "hash": "74c382a4eaff733973e9f2744b688f89",
+    "standard_class": "Mahindra XUV300"
+  },
+  {
+    "image_path": "Indian Car Recommendation System\\All car images\\Maruti Vitara Brezza 2020.jpg",
+    "class_name": "Maruti Vitara Brezza 2020",
+    "source": "Indian Recommendation",
+    "hash": "8fff96281c330de6fcefc66a266a51f3",
+    "standard_class": "Maruti Suzuki Brezza"
+  },
+  {
+    "image_path": "Indian Car Recommendation System\\All car images\\Maruti Ciaz 2017.jpg",
+    "class_name": "Maruti Ciaz 2017",
+    "source": "Indian Recommendation",
+    "hash": "b3ae0453d4c092da0c688a9535511ee0",
+    "standard_class": "Maruti Suzuki Ciaz"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\591.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "0c9ea0a220f5aa35c5c3b23629ebf1b2",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\598.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "b480d66bf3879877ccc45fd822fda1a3",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\90.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "6d45f277877f322865a73d950dad083d",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\147.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "a4e1f4cabbf3569370fa0fce1b29d0dd",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\641.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "5d41c1ba183c7fd5de454035e9dd5e7f",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\505.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "9ee70a3bc9a2bc1b55c53ed919437531",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Swift\\594.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "0be8b627a1c1fc6572a5a2761a8fa3c1",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\374.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "45f1b8c72b1fc8007b381191a58c8202",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\394.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "9ecb44754d0c561f026175508d023383",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\584.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "836d4c703bf9e8b211d3db9f7c924513",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\603.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "980d13a4505988e8460f0200c95138ff",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\142.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "b332dd6b064bde325dfce19412b7f19f",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\583.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "dd0fe1919cf51e07715bf9a231e18c99",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\273.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "994d479721ce31f6f4592e999ee9ae86",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\44.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "9b24acae6ed9b98f22cbfddaf489437d",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\483.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "0983895a284993efb97206fa140b6d1e",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\729.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "825abcf1139d9d2647260041d4694f36",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\588.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "61835bb5bf2e1dc291bf9b08d9539601",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\728.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "e3082b7249e463d26798a380ac650e48",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\599.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "c16411c74ad7c7b51862adfaf21ee2a2",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\629.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "9f7847c69f68a698022dc182b7cd1e58",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\293.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "9098936ce006064dac0f1c33767729db",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\15.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "2dabf85c1b6d4288b1fb28b152139ce1",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\276.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "f663068a79abbd9c340bf2525492fe35",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\291.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "bda4cdef91649e84169a595f34ed8fc6",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\309.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "928350088a83d78f32d1f9a1d6e130f7",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\361.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "af570db9f0e9bf6a4f9335d228b86558",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\269.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "c74ae15b1210e09022e6638ca5f51538",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\20.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "f9b4de3d1d535e18568d609422eba2cb",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\339.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "266afc905688d6bc0a9a8d0133ea47aa",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\27.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "8d63e8f7b29f0be56b6839cea807228d",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\504.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "70db609e86e89e8fc212506d59863ebc",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\503.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "50c035706b4c424d4a3fe6e0df40a082",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\306.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "f4081279f3be0a334b8c849ddbc360aa",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\81.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "cb1c454c9a1c03ee5b9777571a6b00c6",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\68.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "ed4e6e4b6e65b87ac9888e6e1fcf48ab",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Swift\\148.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "0d4aa5b6f1f84386bb3e54b57ec344ea",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\644.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "8a7475094761d73138e9b84f89d52de0",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Swift\\275.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "572808e3157ccdfe1a8e4ca31bd789ea",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\289.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "89d416039fb0c2ce38bdf8c1dba62778",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\494.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "03474b15a8712158b56275f3d75fb4d2",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\327.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "2c66473d3d01e9c9fb0d435f38cf5023",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\5.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "d1bb094e8e426cec4a7a0c2ca8b27260",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\399.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "c182fef04280547b77fe48afbe2f6291",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Swift\\60.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "cb1888a554e469a7c69e156a335451a0",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\151.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "50fc0a6c28c095a886fe4c2e87b3efe3",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\671.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "b4912b43923ad4c0725b3f41f16f0eff",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\548.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "7fe42edb29f5a33e3741c91eaf6ea979",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\770.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "b7d304735597e2f5488d811d9c71afde",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Swift\\120.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "6a666621807f6ac1a60e686a485b5290",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\349.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "588474fd71cd89cbb985295f6d41f597",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\22.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "426a2a6826933d5f16031be0a1be3963",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Swift\\283.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "28f458dad0b5f4f8a6c57166bfb80e83",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\158.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "0382cb0e491084ec5460f7686d91168a",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\515.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "381ce13f55e439d2d851bb3004d8c41b",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Swift\\279.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "1a1513214cb259c7a2e3a79a5d3667ca",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\82.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "9d0835e2c6dbe0727fb2cfe756a4973c",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\290.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "c4dcfbeda18206ba6c7a34d96c12dd37",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Swift\\484.jpg",
+    "class_name": "Swift",
+    "source": "Cars Dataset",
+    "hash": "eedef346701d4035844112b52b50d0d6",
+    "standard_class": "Maruti Suzuki Swift"
+  },
+  {
+    "image_path": "Indian Car Recommendation System\\All car images\\Maruti Wagon R 2019.jpg",
+    "class_name": "Maruti Wagon R 2019",
+    "source": "Indian Recommendation",
+    "hash": "abe3e56f94792d2034e12c580d7d4f37",
+    "standard_class": "Maruti Suzuki Wagon R"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\296.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "9bf496677e4e112b997d92e21ff9c51f",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\155.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "727f918e70e1802adf5d080cc2199e2c",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\87.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "bebade33bdbd859f9f9b640993d68d48",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\208.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "1a7d8250f3d6c3002375884215ba59a0",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\368.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "fbb3dcb9ad707555782e7555132aff69",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\145.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "ef498f9b611a0f2b201489ae27debfdb",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\183.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "4a0032336096c0b53738637752ed6a17",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\175.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "82a6041bfbd65f4e2a0d07bf747be09f",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Rolls Royce\\91.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "66490264414eaa4a204e7b959144487c",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\390.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "7cffbd5c52dd387cd6d0724e80d5379f",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Rolls Royce\\41.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "f7aa0d54b9f20b1d6ad9db431a2e0b53",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\234.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "b22d23fb7b94219773a61794ae109817",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Rolls Royce\\191.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "e0d9ce7157c557f8828816524879e8bc",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\258.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "53414d266c150c7388ea341fa86f3688",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\259.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "5074a26a95cb7675742a87f1cb812843",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\171.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "97acd94ccb0b20ab6edd1aebc7e5537c",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\333.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "2987b5b16c1ef2bf70af3f2f93d0bdcb",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Rolls Royce\\281.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "50d49d678278e41e85df86c468889cbf",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\395.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "0e265eff1fac775292d8de73f584941f",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Rolls Royce\\316.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "b593481190454c7c21a2d0b825926551",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\117.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "31361d4cea2c045a3d084344878ef8bd",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\17.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "ff4f1dfee393f5f5ac67c30b1d871799",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\252.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "07d079caef029f617c4fddcfa87662be",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\270.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "2cd35cd4bc02d92c1dcc14c5d7a1fa12",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\293.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "0f6880df51515c952d1bf5cbb3009c73",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Rolls Royce\\71.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "7eb8cf891be9a3d3dc7d7742ef1e6127",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Rolls Royce\\101.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "887d9fb89b33acbad3875bfb09055f3d",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\52.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "b10d67bd164f8c7441163ff96862e392",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\184.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "b7deef209d2d9386b636ef6b15c8fec0",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\78.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "e1d0ac812c753d506ca60b825c26dad3",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\15.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "3d0808be4b2bc97bcd054797936cebf3",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Rolls Royce\\48.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "95e959af3674cb62e96862019ddd69e0",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\326.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "32fd2eebb9bae068095d9b36a5019a99",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\325.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "e7cfabd96844c6b51ce9a34c038dad38",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\367.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "844b60b74fa00f33cce2f4f61b9ef599",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\192.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "5a757c58b0b824be0a5f057e7b15f6ad",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\120.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "b49781e0681ae7586621b89347b7ac07",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\75.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "c693b618a0b6bf568b725cd7ac7ee9c3",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\331.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "5e8fde7e2242f0832d9e71f3c2c65eea",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\320.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "78beae20e4add51ba78e9ba338337e17",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\323.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "380b032531063efcb29a310b81aa2090",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\246.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "9099d362c4897e40604fb6ea09714b01",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\140.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "07c0cf2ca0880cbe708dc3b5cebd3483",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\179.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "408c47c58b852424c8a9220932e9fd61",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\123.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "ae0f6855bded6708151326e8ab97c7d3",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\36.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "0f32c4ac19a765ff66a94631c598c87f",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Rolls Royce\\111.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "b5949ebe3a550cfbafbfbea1788f8ddf",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\187.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "d7fd69bd380f6308be7bf418552fd7f7",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\12.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "6cf4fab0952dec60c65b3e132de51ed2",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\196.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "97c5dc014f872702b104a6bba1122f6a",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\42.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "4683ae9bf15c39f409dc2b7e85847629",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\322.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "290bb1e139c09f44a4a84a5b7a902ea9",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\342.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "02a5ecc8813bce229f19f999eb505fee",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\147.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "324e43ac0d534e97c8185700d03da296",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\135.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "9ece5c5bacca27e47249b3b0a5427086",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\267.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "7b6f4b41a2e53fa267822367c9e6d57e",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Rolls Royce\\357.jpg",
+    "class_name": "Rolls Royce",
+    "source": "Cars Dataset",
+    "hash": "5dbbdc8191a3b31af9f73d71d5698411",
+    "standard_class": "Rolls-Royce"
+  },
+  {
+    "image_path": "Indian Car Recommendation System\\All car images\\Tata Nexon EV Max.jpg",
+    "class_name": "Tata Nexon EV Max",
+    "source": "Indian Recommendation",
+    "hash": "3a1a724277ecf848dad122201517cb0d",
+    "standard_class": "Tata Motors Nexon EV"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\434.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "bc28e9e9791856e1a3d7c514ecae3ba2",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\579.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "8cfad53f15d6e91a2e062144c778a489",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\307.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "085e5b64f5cb6b9eac290c2d37c8983c",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\444.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "260f34030fdf771938b3a8abc1d17957",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\233.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "e4ae0827198ccd7d33b36acf437d82fd",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\28.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "f6117c9ed3854b5900498739e6eb00c7",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\139.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "40165010ba5fd4217b32bd35cdbfb441",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\114.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "545054bfbb22f60a3f52029ffa93271a",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\188.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "c319935b44af37afbe8f2b0792f2890c",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\408.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "29cc66d2fb17cbf7e138bb390d214d25",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\184.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "1a1b837c44f08b964cc94b824da8641e",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Tata Safari\\230.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "e60782af42257bec4cfe8c38c7beb15a",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\577.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "28144d1691ed5b9a6ed44d243d2a8db2",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\43.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "308032eccd1ef52f496440017eb35758",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\113.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "f65f9f1c4fa14fe3512c025ca789ae1d",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Tata Safari\\314.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "86c052ababd2ec8411edb9993f785b64",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\19.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "abaaa0fb654735cdd32e5da0e79e45da",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\387.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "f384ef06fc5938d6e7ec6bcb53917447",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\453.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "43ceb066619f0962a0af9b969514c314",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\400.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "55728762617557ba19ec35ff5550505e",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\142.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "78643a66dca4a15b9314e6f88333d6aa",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\155.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "2a6d15c688fcae4d58cf58231b7fbc40",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\68.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "7f8811bb80df5065764e9541fe014e45",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Tata Safari\\267.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "b617286186f9e07e3ae4abd6170bbfca",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\367.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "94b44571ce1a8ba83aa69e85d3209aaf",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\63.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "4896315599f5830cdfba9d16f49d9147",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\201.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "593148c8aa198304b1e8b369f6efe80a",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\347.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "1511f8adeb89bbd86d54c600f1caa397",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Tata Safari\\484.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "77909324038d1b93cc7dd0b0466262bb",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\278.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "a1d5308fc47e0e5720f5623e08676ff3",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\287.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "b1a55a9c5032bb1a679f60b2d98873e3",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\77.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "ef0d816e413267b5694d9080d1f8a734",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\333.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "f68225613434da67f013b2ed0e30d25c",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\566.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "3d6701652d5e139b8fc971bde43e166a",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\438.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "1d9f86956dfbd2c503122fdbf828a493",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\161.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "8737a6813e24540269d6fbab585320b1",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\716.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "ec9815c7dae3836d73dfe521030babd0",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\127.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "bf1c441e6224f0a66c65572fe4b39cf9",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\385.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "6cd63d2153af0c16775fa0462578b6af",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\212.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "9353e394de87da09a65191ea12227b15",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\437.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "1abe4bd471566caeba34dc85ed0a99ed",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\488.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "32a075c2e73fd1103604dac17e5ef949",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Tata Safari\\666.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "c335be995ec39bce9cbe2d3f5613ac7e",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\190.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "c16fb9061d4c4e0def7954b261237d45",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Tata Safari\\116.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "8b7eefbd458eb7f0bd003ef7fb563c2b",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\356.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "0e0c7b1dd411f00e7cf31a3cb6c92cf6",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\439.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "ee0d7c1ca12deb2a38c23c4f6b9e472b",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Tata Safari\\80.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "d50039ad58aa04c5283f178c6862e816",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Tata Safari\\406.jpg",
+    "class_name": "Tata Safari",
+    "source": "Cars Dataset",
+    "hash": "b11050436b08afd3f9abe4d05af253aa",
+    "standard_class": "Tata Motors Safari"
+  },
+  {
+    "image_path": "Indian Car Recommendation System\\All car images\\Tata Tiago NRG.jpg",
+    "class_name": "Tata Tiago NRG",
+    "source": "Indian Recommendation",
+    "hash": "faef25cf73243be6e38d2bc87122ec40",
+    "standard_class": "Tata Motors Tiago"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\807.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "6c1ef4e32ef44ee53cfb34552574ce87",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\754.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "7e85b2b26b52941ad2bbceb847e7e44b",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\173.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "fe237a11afdfe6946c9a1a45f76b6337",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\964.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "8a5f4399303c3fe8763d554e70a558b0",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\835.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "5a4e7a61d627e27b57f43259f04f5d6f",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\1229.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "d82f2d35ab6646c0a9cb2ba62ad50307",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\99.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "9a2f4ec75ad342f7f1df758bd940ce2b",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\112.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "d922695965e7e4d14096f0c9063383b7",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\379.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "4f16f173adf42af932ab215cd5525f2e",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\254.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "7f5da44c64fde6b676b64de0409b6933",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\290.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "0ad28ee71d6d60e4a40b0c5cd6d594e9",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\715.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "248ba95799a43eda7e181e18b7b8089a",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\623.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "808ebb605b26e0eddb537ae50e5114f2",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\898.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "ed3c0f6ca64980f2f012e8373b9b001d",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\216.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "f7b61a701641fc54cc7f6018f99c531e",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\172.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "a56a64a64cdcf521144c44e2d5328399",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\334.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "36777ccbfcdd9be5432b7b0aa10d0293",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\530.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "4d5f9aa723426e8e2f51ff5b747ce424",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\308.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "c2f613be9ec5359c91a4cb5de3cdf0de",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\20.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "b2aecec0ea9b8da0dea2eef3d72075b9",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\452.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "6dc5c43082d1d5919a70c5af8dd346bf",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\553.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "ddc8958b30c6939c7939ca0efce17cc6",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\1233.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "d5d822875dec0dff6bbe30985a42042e",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\1245.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "acc28181673930fc4c9b4202109d1a67",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\182.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "645b38ac377957cb1be08a95993a0489",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\668.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "d269f867caeab6401d0931fceef7d36f",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\817.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "5aea09a5445403863f212cdbbc521171",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\299.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "644afaa6a3a8664e94b11870c55ce834",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\380.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "9bf62eee5ef1d0c3b8820d0e5f04b66b",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\752.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "b750122d7accfdd2a0e6a07240c096a3",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\1023.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "1bdb9e0dfe90e6678ffebad89ba16a76",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\1017.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "2937248f5c69530201cda2d473623746",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\635.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "090d5ea81f205652cf2428925e19ee10",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\881.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "35464ec800c7fdb509b35e35318f5d2e",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\918.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "1b394d6f830e4e876d3d11698c6cf1ea",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\980.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "0888145e1ea6c5d18386cc3df4ed11a7",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\782.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "e7017fb0fa4da60d299b72608866c1e8",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\771.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "a98221ff2146ef8b100ae6dbf6d6714c",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\1088.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "9dbe8e2112f3ad24fcd086b067d15d51",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\558.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "e1b331995c375a7d0d7a42727fecc531",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\71.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "34ce09ff7154a672d043268cd1f48f6b",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\821.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "0c44c7b158a7c07187b9111e03118a53",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\240.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "49643ab897e5888123b6d83232d0e28e",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\1014.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "98b9fa3a5928bacd67ba6b71db86f667",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\131.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "7971f1a6fa524a68d92b7f8d694ed781",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\1099.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "c819138982b3adcdd5719f9c4f86d7d7",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\260.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "465bd671c93bfe1431e64edc04612e43",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\1285.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "1c8bf55d1f7dbc78a2b159eb04ec987c",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\603.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "6844f31f14d5e01c008b7bc52cf7373f",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\1008.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "119b2c7ccb66f973e6bacc50058879fd",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\895.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "a943be1a897aa3b229a4fc2b00d8a63f",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\111.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "e68542f40cccbcbd8c03673433e6d4a3",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\926.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "ff740d9ffe0fde9a7bfa966cadf0b86d",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\867.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "69ffa4b5dc898b3e133c0760fc8389c3",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\1087.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "aeb3f065bba9846d35efeb225ed50d7d",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\903.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "0c8c80eeb73fbc2d3f5ec434f5d3d20d",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\520.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "cd22a85f8c7ae4c32046fc3ce95ad19f",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\949.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "5816bdd5888703e315655a845726ed81",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\91.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "43b364809bcc910d400e5bcc0680f5fe",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\804.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "f5ccacd09ffc67c984078001cf0d7a7e",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\169.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "a970249a5cce756e0cbae540e4cc7389",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\529.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "3511283a31bae87638e97108bf5c8128",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\165.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "dc14b68335d1ec5818c43177dd49273b",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\716.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "8d939ee6ec4ba26a1afe25da8f6147a9",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\791.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "5fef87610d19a20dc6c206312f29ab6d",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\783.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "7e89017b446c6854f5295285e08bc4b2",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\312.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "2d1fd4a6bb1b74bfe24fa323db9a052c",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\498.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "7bffbe55606744efcbeb5459c05c1414",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\921.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "8ffe6b884c9564e19be20b3c44243136",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\810.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "e6effb35737f025d8248ff0c146e40f3",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\292.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "63c23558b7a537d2bb119b88c9425497",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\963.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "b127af72b05ca7faab8e500f3666d68a",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\565.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "b019343ac47f5d88ee3b63b8b5a55baf",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\26.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "bcf46be1f42b3b848cae099cae1c252d",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\483.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "5692e6c7987353bfb0e82f45aadc4667",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\204.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "44ddc60fe6e3b756ebe822d720134632",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\134.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "f6a5d1eb09e016802f80a579788fb9d2",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\393.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "36ef605035dd10c4cbf33d7f4f84ace3",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\645.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "1b3c8dbecccb1aa0268e4f050fd3fbac",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\925.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "22e9f19bf3948cfef707e79fd87e708b",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\1075.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "202f45b3f7cff8c592afe1ee6ff253c6",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\974.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "84e2e9fe70381f93ebafe0816912c148",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\1295.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "9a82f36a3ddf44ac8a0c98a292ff3bb1",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\709.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "0dd4ed25eec7092992fece788acb57cd",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\946.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "54bde93224cf0876bf7796aabba034c7",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\1065.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "cd9b90d8dc4de38a136ab07a4b033f3e",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\706.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "b65673591e7c10f2af151b573d0dcb49",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\430.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "28680daa5e4a6196b8cdf0901ea8233a",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\213.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "8d180e6f8fab6ab8fb9b7fc755396c6d",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\226.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "c4b4a7deb6e060c696846ec772a7e13b",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\451.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "ad972295e7c4359752da914c7a5d199c",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\734.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "1397cc70a6f0cc7ff4b92374c74e91a5",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\1235.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "9137d689cadc71b8b075ac555cb4e635",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\1093.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "d60feda653b0254a9d218f5768352ad9",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\808.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "137762f7c6b26915b1a46b5069c0c666",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\842.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "2459ca660b9813db051b2519e5601bcc",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\538.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "4a5b496e7c475167b067cf4bc4d8e26e",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\324.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "dfc554955f62d87edfc82cbbe4a3f28f",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\422.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "797e287ee03b347727e0731d9a87dffa",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\537.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "4b6cbeea9d64fa16d3c7ce53af17e2ee",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\889.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "42799dab650644e0ca661e9c05440c2a",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\728.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "cd519479e446ed93f8479bfce237e619",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\566.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "55b3a1bfd0f32d472e8d5ddfddd1d4bc",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\372.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "351c83b94b20fff6f94fdd1c276df74f",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\455.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "a114606e84405b8ce62f7a23bb7cc335",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\924.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "7e639d635d6c376ccaf6f2a071015d19",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\28.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "0531f3d0e9bb85ad7739a89fd7e3cab0",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\607.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "bdd0e45f348ca8460aa2bacb7c09ce5e",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\train\\Toyota Innova\\219.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "77df8f417425da4ade42b1bf120d4bdc",
+    "standard_class": "Toyota Innova"
+  },
+  {
+    "image_path": "Cars Dataset\\test\\Toyota Innova\\1114.jpg",
+    "class_name": "Toyota Innova",
+    "source": "Cars Dataset",
+    "hash": "71a5ad8aefc6168f590080adab6bd8f2",
+    "standard_class": "Toyota Innova"
+  }
+]
