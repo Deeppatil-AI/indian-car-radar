@@ -1,11 +1,12 @@
 ﻿/* ==========================================================================
-   CYBER-DETECT FRONTEND ENGINE WITH ACTIVE REINFORCEMENT LEARNING & SEARCH
+   CYBER-DETECT FRONTEND ENGINE WITH LIVE WEBCAM & VEHICLE VERIFICATION GATE
    ========================================================================== */
 
 let sfxEnabled = true;
 let currentImageData = null;
 let currentPredictionResult = null;
 let allCodexCars = [];
+let webcamStream = null;
 
 // RETRO 8-BIT AUDIO SYNTHESIZER VIA WEB AUDIO API
 const AudioContext = window.AudioContext || window.webkitAudioContext;
@@ -46,11 +47,30 @@ function playScanChirp() {
     } catch (e) {}
 }
 
+function playHazardAlarm() {
+    if (!sfxEnabled) return;
+    try {
+        if (!audioCtx) audioCtx = new AudioContext();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(150, audioCtx.currentTime);
+        osc.frequency.linearRampToValueAtTime(80, audioCtx.currentTime + 0.3);
+        gain.gain.setValueAtTime(0.12, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.3);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + 0.3);
+    } catch (e) {}
+}
+
 // INITIALIZATION
 document.addEventListener('DOMContentLoaded', () => {
     initTabs();
     initControls();
     initDropzone();
+    initWebcam();
     initRLFeedbackControls();
     loadSystemInfo();
     loadSampleArsenal();
@@ -88,6 +108,67 @@ function initControls() {
         crtBtn.textContent = document.body.classList.contains('crt-scanlines') ? 'CRT: [ON]' : 'CRT: [OFF]';
         playBeep(480, 'square', 0.06);
     });
+}
+
+// WEBCAM LIVE CAMERA ENGINE
+function initWebcam() {
+    const webcamBtn = document.getElementById('webcamBtn');
+    const captureBtn = document.getElementById('captureWebcamBtn');
+    const video = document.getElementById('webcamVideo');
+    const captureBar = document.getElementById('webcamCaptureBar');
+    const previewImg = document.getElementById('previewImg');
+    const camImg = document.getElementById('camImg');
+    const emptyState = document.querySelector('.empty-state-hud');
+
+    webcamBtn.addEventListener('click', async () => {
+        playBeep(650, 'square', 0.08);
+        if (webcamStream) {
+            stopWebcam();
+            return;
+        }
+
+        try {
+            webcamStream = await navigator.mediaDevices.getUserMedia({
+                video: { facingMode: 'environment', width: { ideal: 1280 }, height: { ideal: 720 } }
+            });
+            video.srcObject = webcamStream;
+            video.style.display = 'block';
+            captureBar.style.display = 'block';
+            previewImg.style.display = 'none';
+            camImg.style.display = 'none';
+            if (emptyState) emptyState.style.display = 'none';
+            webcamBtn.textContent = '[ 🛑 STOP WEBCAM ]';
+        } catch (err) {
+            alert('Camera access denied or unavailable: ' + err.message);
+        }
+    });
+
+    captureBtn.addEventListener('click', () => {
+        if (!webcamStream) return;
+        const canvas = document.createElement('canvas');
+        canvas.width = video.videoWidth || 640;
+        canvas.height = video.videoHeight || 480;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+        
+        currentImageData = canvas.toDataURL('image/jpeg', 0.92);
+        stopWebcam();
+        displayImagePreview(currentImageData);
+        runInference(currentImageData);
+    });
+}
+
+function stopWebcam() {
+    if (webcamStream) {
+        webcamStream.getTracks().forEach(track => track.stop());
+        webcamStream = null;
+    }
+    const video = document.getElementById('webcamVideo');
+    const captureBar = document.getElementById('webcamCaptureBar');
+    const webcamBtn = document.getElementById('webcamBtn');
+    if (video) video.style.display = 'none';
+    if (captureBar) captureBar.style.display = 'none';
+    if (webcamBtn) webcamBtn.textContent = '[ 📷 USE LIVE WEBCAM / PHONE CAMERA ]';
 }
 
 // DRAG & DROP AND FILE INPUT
@@ -138,6 +219,7 @@ function handleFile(file) {
     }
     const reader = new FileReader();
     reader.onload = (e) => {
+        stopWebcam();
         currentImageData = e.target.result;
         displayImagePreview(currentImageData);
         playBeep(700, 'square', 0.08);
@@ -158,6 +240,7 @@ function displayImagePreview(dataUrl) {
 }
 
 function resetScanner() {
+    stopWebcam();
     currentImageData = null;
     currentPredictionResult = null;
     document.getElementById('fileInput').value = '';
@@ -165,6 +248,7 @@ function resetScanner() {
     document.getElementById('camImg').style.display = 'none';
     document.getElementById('viewModeBar').style.display = 'none';
     document.getElementById('resultsHud').style.display = 'none';
+    document.getElementById('noVehicleAlert').style.display = 'none';
     document.getElementById('correctionPanel').style.display = 'none';
     document.getElementById('feedbackStatus').style.display = 'none';
     const emptyState = document.querySelector('.empty-state-hud');
@@ -172,11 +256,13 @@ function resetScanner() {
     playBeep(300, 'sawtooth', 0.1);
 }
 
-// INFERENCE & GRAD-CAM CALLS
+// INFERENCE & VEHICLE GATE CALLS
 async function runInference(imageBase64) {
     playScanChirp();
     const resultsHud = document.getElementById('resultsHud');
+    const noVehicleAlert = document.getElementById('noVehicleAlert');
     resultsHud.style.display = 'none';
+    noVehicleAlert.style.display = 'none';
     document.getElementById('correctionPanel').style.display = 'none';
     document.getElementById('feedbackStatus').style.display = 'none';
 
@@ -189,11 +275,21 @@ async function runInference(imageBase64) {
 
         if (!response.ok) throw new Error('Prediction API failed');
         const data = await response.json();
+
+        // 1. Check if vehicle presence check passed
+        if (data.is_vehicle === false) {
+            playHazardAlarm();
+            document.getElementById('noVehicleMsg').textContent = data.message || 'NO AUTOMOBILE DETECTED IN SCAN. Please upload a clear photo of an Indian car.';
+            noVehicleAlert.style.display = 'flex';
+            document.getElementById('viewModeBar').style.display = 'none';
+            return;
+        }
+
         currentPredictionResult = data;
         renderResults(data);
     } catch (err) {
         console.error(err);
-        alert('Error analyzing image. Please verify server status.');
+        alert('Error analyzing image. Please verify server connection.');
     }
 }
 
@@ -205,10 +301,11 @@ function renderResults(data) {
     document.getElementById('resConfidence').textContent = `${confPct}%`;
     document.getElementById('confBar').style.width = `${Math.min(100, Math.max(10, confPct))}%`;
 
-    // Top alternative matches with reference car photos
+    // Top alternative matches with reference car photos (Unique & Deduplicated)
     const topRanks = document.getElementById('topRanks');
     topRanks.innerHTML = '';
-    data.top_k.forEach(rank => {
+    
+    data.top_k.forEach((rank, idx) => {
         const div = document.createElement('div');
         div.className = 'rank-item';
         div.style.display = 'flex';
@@ -216,12 +313,13 @@ function renderResults(data) {
         div.style.gap = '14px';
         div.style.padding = '10px';
         div.style.marginBottom = '8px';
-        div.style.background = '#111';
-        div.style.border = '1px solid #333';
+        div.style.background = '#101018';
+        div.style.border = '1px solid #282838';
+        div.style.borderRadius = '4px';
         div.style.cursor = 'pointer';
         
         div.innerHTML = `
-            <img src="${rank.image_url}" style="width: 70px; height: 48px; object-fit: cover; border: 1px solid #666;" alt="${rank.model}">
+            <img src="${rank.image_url}" style="width: 75px; height: 50px; object-fit: cover; border: 1px solid #555; border-radius: 2px;" alt="${rank.model}">
             <div style="flex: 1;">
                 <div style="font-weight: bold; font-size: 14px; color: #fff;">${rank.make} ${rank.model}</div>
                 <div style="font-size: 10px; color: #888;">CLICK TO SET AS TRUE MODEL (RL UPDATE)</div>
@@ -282,7 +380,7 @@ function initRLFeedbackControls() {
     const correctionSearch = document.getElementById('correctionSearch');
 
     confirmBtn.addEventListener('click', () => {
-        if (!currentPredictionResult) return;
+        if (!currentPredictionResult || !currentPredictionResult.car_info) return;
         const predIdx = currentPredictionResult.car_info.catalog_idx;
         submitRLFeedback(true, predIdx);
     });
@@ -296,7 +394,6 @@ function initRLFeedbackControls() {
         playBeep(550, 'triangle', 0.05);
     });
 
-    // Instant search filter inside correction panel
     correctionSearch.addEventListener('input', (e) => {
         const query = e.target.value.toLowerCase().trim();
         populateCorrectionDropdown(allCodexCars, query);
@@ -336,7 +433,6 @@ function populateCorrectionDropdown(cars, filterQuery = '') {
 
     filtered.forEach(car => {
         const opt = document.createElement('option');
-        // Look up original index in allCodexCars
         const origIdx = allCodexCars.findIndex(c => c.id === car.id);
         opt.value = origIdx >= 0 ? origIdx : 0;
         opt.textContent = `${car.make} ${car.model}`;
@@ -349,7 +445,7 @@ async function submitRLFeedback(isCorrect, targetIdx) {
     const predIdx = currentPredictionResult.car_info.catalog_idx;
     const statusDiv = document.getElementById('feedbackStatus');
     statusDiv.style.display = 'block';
-    statusDiv.textContent = '>> TRANSMITTING RL UPDATE TO RTX 3050 GPU...';
+    statusDiv.textContent = '>> TRANSMITTING RL UPDATE TO NEURAL MATRIX...';
 
     try {
         const res = await fetch('/api/feedback', {
@@ -394,6 +490,7 @@ async function loadSampleArsenal() {
             chip.className = 'sample-chip';
             chip.textContent = `${sample.make} ${sample.model}`;
             chip.onclick = () => {
+                stopWebcam();
                 playBeep(720, 'square', 0.05);
                 displayImagePreview(sample.image_url);
                 currentImageData = sample.image_url;
@@ -422,11 +519,12 @@ function renderCodexGrid(cars) {
         card.className = 'codex-card';
         card.style.cursor = 'pointer';
         card.innerHTML = `
-            <img src="${car.image_url}" style="width: 100%; height: 140px; object-fit: cover; border-bottom: 1px solid #333; margin-bottom: 10px;" alt="${car.model}">
-            <div class="codex-title" style="font-size: 15px;">${car.make.toUpperCase()} // ${car.model.toUpperCase()}</div>
+            <img src="${car.image_url}" style="width: 100%; height: 140px; object-fit: cover; border-bottom: 1px solid #282838; margin-bottom: 10px; border-radius: 2px;" alt="${car.model}">
+            <div class="codex-title" style="font-size: 14px;">${car.make.toUpperCase()} // ${car.model.toUpperCase()}</div>
             <button class="retro-btn btn-small" style="width: 100%; margin-top: 10px;">&gt; SCAN THIS CAR &lt;</button>
         `;
         card.onclick = () => {
+            stopWebcam();
             playBeep(720, 'square', 0.05);
             document.querySelectorAll('.tab-btn').forEach(t => t.classList.remove('active'));
             document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
@@ -468,7 +566,7 @@ async function loadSystemInfo() {
         if (info.cuda_available) {
             gpuStatus.textContent = `GPU: ${info.gpu_name} (CUDA ACTIVE)`;
         } else {
-            gpuStatus.textContent = 'GPU: CPU MODE';
+            gpuStatus.textContent = 'CORE: ACTIVE (CLOUD CPU)';
         }
         document.getElementById('classCount').textContent = `CATALOG: ${info.num_classes} CARS`;
         if (info.rl_stats && info.rl_stats.total_feedbacks > 0) {

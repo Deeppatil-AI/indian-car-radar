@@ -26,7 +26,7 @@ engine = None
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global engine
-    print("[SERVER] Initializing Indian Car Deep Retrieval Engine on GPU...")
+    print("[SERVER] Initializing Indian Car Deep Retrieval Engine on GPU/CPU...")
     engine = IndianCarRetrievalEngine(catalog_path="data/unified_catalog.json")
     yield
 
@@ -77,7 +77,7 @@ async def read_root():
 async def get_system_info():
     cuda_avail = torch.cuda.is_available()
     gpu_name = torch.cuda.get_device_name(0) if cuda_avail else "CPU Mode"
-    catalog_len = len(engine.catalog) if engine else 304
+    catalog_len = len(engine.catalog) if engine else 286
     rl_stats = engine.rl_stats if engine else {}
     return {
         "cuda_available": cuda_avail,
@@ -173,9 +173,19 @@ async def predict_car(req: PredictRequest):
             return JSONResponse(status_code=400, content={"error": "Invalid image payload"})
 
     results = engine.search(image, top_k=4)
+
+    # If vehicle gate check failed (non-car image uploaded)
+    if not results.get("is_vehicle", True):
+        return {
+            "is_vehicle": False,
+            "message": results.get("message", "NO AUTOMOBILE DETECTED IN SCAN. Please upload a clear photo of an Indian car."),
+            "confidence": float(results.get("confidence", 0.0))
+        }
+
     best = results["best_match"]
 
     response_payload = {
+        "is_vehicle": True,
         "car_info": {
             "make": str(best["make"]),
             "model": str(best["model"]),
