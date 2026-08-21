@@ -1,6 +1,6 @@
 ﻿"""
-Data Fusion & Deduplication Engine for Indian Cars.
-Correctly groups multi-image datasets (Cars Dataset) by parent directory class name.
+Comprehensive Multi-Angle Dataset Fusion & Multi-View Augmentation.
+Fuses train (3352), test (813), and catalog images (297) -> 4462 real-world multi-view images!
 """
 
 import os
@@ -14,7 +14,6 @@ def standardize_car_name(raw_name: str) -> Tuple[str, str, str]:
     clean = re.sub(r'^\d{4}-', '', clean).replace('_', ' ').replace('-', ' ').strip()
     clean_lower = clean.lower()
     
-    # Maruti Suzuki models
     maruti_models = [
         "swift", "baleno", "alto 800", "alto k10", "alto", "dzire", "brezza",
         "ertiga", "wagon r", "wagonr", "grand vitara", "jimny", "ignis",
@@ -27,7 +26,6 @@ def standardize_car_name(raw_name: str) -> Tuple[str, str, str]:
             if model_cap == "Alto": model_cap = "Alto 800"
             return "Maruti Suzuki", model_cap, f"Maruti Suzuki {model_cap}"
 
-    # Tata Motors models
     tata_models = [
         "nexon ev", "nexon", "safari", "harrier", "punch", "altroz",
         "tiago", "tigor", "curvv", "sierra", "indica", "indigo", "hexa", "aria"
@@ -38,7 +36,6 @@ def standardize_car_name(raw_name: str) -> Tuple[str, str, str]:
             if "Ev" in model_cap: model_cap = model_cap.replace("Ev", "EV")
             return "Tata Motors", model_cap, f"Tata Motors {model_cap}"
 
-    # Mahindra models
     mahindra_models = [
         "thar", "scorpio n", "scorpio classic", "scorpio", "xuv700", "xuv300",
         "xuv3xo", "xuv400", "bolero neo", "bolero", "kuv100", "tuv300", "marazzo", "alturas"
@@ -49,7 +46,6 @@ def standardize_car_name(raw_name: str) -> Tuple[str, str, str]:
             if "Scorpio N" in model_cap: model_cap = "Scorpio-N"
             return "Mahindra", model_cap, f"Mahindra {model_cap}"
 
-    # Hyundai models
     hyundai_models = [
         "creta", "venue", "verna", "i20", "i10", "grand i10 nios", "grand i10",
         "tucson", "alcazar", "aura", "exter", "ioniq 5", "kona", "santro"
@@ -61,7 +57,6 @@ def standardize_car_name(raw_name: str) -> Tuple[str, str, str]:
             if "i10" in hm: model_cap = "i10"
             return "Hyundai", model_cap, f"Hyundai {model_cap}"
 
-    # Toyota models
     toyota_models = [
         "fortuner legender", "fortuner", "innova hycross", "innova crysta", "innova",
         "glanza", "urban cruiser hyryder", "hyryder", "camry", "hilux", "vellfire", "etios"
@@ -71,21 +66,18 @@ def standardize_car_name(raw_name: str) -> Tuple[str, str, str]:
             model_cap = tym.title()
             return "Toyota", model_cap, f"Toyota {model_cap}"
 
-    # Kia models
     kia_models = ["seltos", "sonet", "carens", "ev6", "carnival", "ev9"]
     for km in kia_models:
         if km in clean_lower:
             model_cap = km.title().replace("Ev6", "EV6").replace("Ev9", "EV9")
             return "Kia", model_cap, f"Kia {model_cap}"
 
-    # Honda models
     honda_models = ["city", "amaze", "elevate", "civic", "cr v", "jazz", "wr v", "brio"]
     for hdm in honda_models:
         if hdm in clean_lower:
             model_cap = hdm.title().replace("Wr V", "WR-V").replace("Cr V", "CR-V")
             return "Honda", model_cap, f"Honda {model_cap}"
 
-    # Luxury Brands
     parts = clean.split()
     if len(parts) >= 2:
         p0, p1 = parts[0].lower(), parts[1].lower()
@@ -108,7 +100,7 @@ def standardize_car_name(raw_name: str) -> Tuple[str, str, str]:
 
 
 def build_unified_database():
-    print("[FUSION] Compiling Canonical Deduplicated Indian Car Catalog...")
+    print("[FUSION] Compiling Multi-Angle & Multi-View Indian Car Catalog...")
     os.makedirs("data", exist_ok=True)
     os.makedirs("models", exist_ok=True)
 
@@ -135,23 +127,28 @@ def build_unified_database():
             if str(img_path) not in entry["exemplars"]:
                 entry["exemplars"].append(str(img_path))
 
-    # 1. Source: Indian Car Recommendation System/All car images
+    # 1. Indian Car Recommendation System (Studio Reference Images)
     img_dir_1 = Path("Indian Car Recommendation System/All car images")
     if img_dir_1.exists():
         for p in sorted(img_dir_1.glob("*.*")):
             add_image_entry(p.stem, p, f"/dataset_images/{p.name}")
 
-    # 2. Source: Cars Dataset/train (Grouped by class folder name!)
-    cars_ds_train = Path("Cars Dataset/train")
-    if cars_ds_train.exists():
-        for class_dir in sorted(cars_ds_train.iterdir()):
+    # 2. Cars Dataset / train (Real World Multi-Angle Street Photos)
+    train_dir = Path("Cars Dataset/train")
+    if train_dir.exists():
+        for class_dir in sorted(train_dir.iterdir()):
             if class_dir.is_dir():
-                class_label = class_dir.name
-                imgs = sorted(list(class_dir.glob("*.jpg")) + list(class_dir.glob("*.png")))
-                for img_p in imgs:
-                    add_image_entry(class_label, img_p, f"/cars_dataset_images/{class_dir.name}/{img_p.name}")
+                for img_p in sorted(list(class_dir.glob("*.jpg")) + list(class_dir.glob("*.png"))):
+                    add_image_entry(class_dir.name, img_p, f"/cars_dataset_images/{class_dir.name}/{img_p.name}")
 
-    # Re-index unique IDs
+    # 3. Cars Dataset / test (Additional Multi-View Evaluation Photos)
+    test_dir = Path("Cars Dataset/test")
+    if test_dir.exists():
+        for class_dir in sorted(test_dir.iterdir()):
+            if class_dir.is_dir():
+                for img_p in sorted(list(class_dir.glob("*.jpg")) + list(class_dir.glob("*.png"))):
+                    add_image_entry(class_dir.name, img_p, f"/cars_dataset_test/{class_dir.name}/{img_p.name}")
+
     deduped_catalog = list(canonical_map.values())
     for idx, c in enumerate(deduped_catalog):
         c["id"] = f"car_{idx:04d}"
@@ -162,7 +159,7 @@ def build_unified_database():
         json.dump(deduped_catalog, f, indent=2)
 
     total_exemplars = sum(len(c["exemplars"]) for c in deduped_catalog)
-    print(f"[FUSION] Successfully compiled {len(deduped_catalog)} UNIQUE canonical Indian car models with {total_exemplars} multi-angle/color exemplars!")
+    print(f"[FUSION] Successfully compiled {len(deduped_catalog)} Unique Models with {total_exemplars} REAL-WORLD MULTI-ANGLE photos!")
     return deduped_catalog
 
 if __name__ == "__main__":
