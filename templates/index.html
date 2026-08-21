@@ -11,16 +11,15 @@
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body class="crt-scanlines">
-    <!-- TOP STATUS TELEMETRY BAR -->
+    <!-- TOP STATUS BAR -->
     <div class="top-nav-bar">
         <div class="nav-brand">
             <span class="pulse-dot"></span>
-            <span class="brand-text">CYBER-DETECT // INDIAN AUTO RADAR v2.5</span>
+            <span class="brand-text">CYBER-DETECT // AUTO RADAR</span>
         </div>
         <div class="nav-stats">
-            <span class="stat-badge" id="gpuStatus">CORE: ACTIVE</span>
+            <span class="stat-badge" id="systemStatus">STATUS: ONLINE</span>
             <span class="stat-badge" id="classCount">CATALOG: 286 CARS</span>
-            <span class="stat-badge highlight-badge" id="rlBadge">RLHF: LEARNING</span>
             <button class="retro-btn btn-small" id="sfxToggle">SFX: [ON]</button>
             <button class="retro-btn btn-small" id="crtToggle">CRT: [ON]</button>
         </div>
@@ -30,13 +29,12 @@
         <!-- HEADER SECTION -->
         <header class="arcade-header">
             <div class="header-glitch-box">
-                <div class="cyber-badge-top">&gt;&gt; MILITARY-GRADE VEHICLE TELEMETRY &lt;&lt;</div>
                 <h1 class="glitch-title" data-text="CYBER-DETECT">CYBER-DETECT</h1>
-                <p class="subtitle">&gt;&gt; FINE-GRAINED INDIAN AUTOMOBILE MAKE &amp; MODEL AI CLASSIFIER &lt;&lt;</p>
+                <p class="subtitle">&gt;&gt; INDIAN CAR MAKE &amp; MODEL AI CLASSIFIER &lt;&lt;</p>
             </div>
             <div class="nav-tabs">
                 <button class="tab-btn active" data-tab="scanner-deck">[ 1. TARGET SCANNER ]</button>
-                <button class="tab-btn" data-tab="codex-deck">[ 2. INDIAN AUTO CODEX (286 MODELS) ]</button>
+                <button class="tab-btn" data-tab="codex-deck">[ 2. INDIAN AUTO CODEX ]</button>
             </div>
         </header>
 
@@ -48,7 +46,7 @@
                     <div class="card-header">
                         <span class="corner-bracket top-left"></span>
                         <span class="corner-bracket top-right"></span>
-                        <h2>[ TARGET ACQUISITION DECK ]</h2>
+                        <h2>[ TARGET SCANNER ]</h2>
                     </div>
                     <div class="card-body">
                         <!-- DROPZONE -->
@@ -59,7 +57,7 @@
                                 <div class="reticle-corners"></div>
                             </div>
                             <p class="drop-prompt">&gt;&gt; DRAG &amp; DROP ANY CAR PHOTO OR CLICK TO SCAN &lt;&lt;</p>
-                            <span class="format-note">MULTI-SCALE DINOv2 ViT + SALIENCY AUTO-CROPPER ACTIVE</span>
+                            <span class="format-note">SUPPORTS JPG, PNG &amp; WEBP</span>
                         </div>
 
                         <!-- LIVE CAMERA MODAL TOGGLE -->
@@ -69,7 +67,7 @@
 
                         <!-- SAMPLE SELECTOR -->
                         <div class="sample-arsenal">
-                            <div class="section-label">&gt; QUICK RECOGNITION TARGETS (INDIAN MARKET):</div>
+                            <div class="section-label">&gt; QUICK TARGET SAMPLES:</div>
                             <div class="sample-chips" id="sampleChips">
                                 <!-- Populated dynamically with unique cars -->
                             </div>
@@ -87,14 +85,14 @@
                     <div class="card-header">
                         <span class="corner-bracket top-left"></span>
                         <span class="corner-bracket top-right"></span>
-                        <h2>[ RADAR TELEMETRY &amp; IDENTIFIED VEHICLE ]</h2>
+                        <h2>[ IDENTIFIED VEHICLE ]</h2>
                     </div>
                     <div class="card-body">
                         <div class="scanner-view-box">
                             <div class="image-preview-container" id="previewContainer">
                                 <div class="empty-state-hud">
                                     <div class="radar-sweep"></div>
-                                    <p>[ AWAITING TARGET ACQUISITION ]</p>
+                                    <p>[ AWAITING CAR PHOTO ]</p>
                                 </div>
                                 <video id="webcamVideo" class="webcam-display" style="display: none;" autoplay playsinline></video>
                                 <img id="previewImg" class="preview-display" style="display: none;" alt="Target Scan">
@@ -108,7 +106,7 @@
 
                             <!-- CAM MODE SWITCHER -->
                             <div class="view-mode-bar" id="viewModeBar" style="display: none;">
-                                <span class="mode-label">RADAR VISION:</span>
+                                <span class="mode-label">VIEW:</span>
                                 <button class="mode-btn active" data-mode="normal">[ RGB ]</button>
                                 <button class="mode-btn" data-mode="cam-thermal">[ THERMAL CAM ]</button>
                                 <button class="mode-btn" data-mode="cam-cyber">[ CYBER MASK ]</button>
@@ -119,21 +117,21 @@
                         <div class="hazard-alert-box" id="noVehicleAlert" style="display: none;">
                             <div class="hazard-icon">⚠️</div>
                             <div class="hazard-text">
-                                <div class="hazard-title">SCAN ABORTED // NO AUTOMOBILE DETECTED</div>
-                                <div class="hazard-sub" id="noVehicleMsg">The uploaded image does not contain automotive geometry. Please upload a clear photo of an Indian car.</div>
+                                <div class="hazard-title">NO CAR DETECTED IN PHOTO</div>
+                                <div class="hazard-sub" id="noVehicleMsg">The uploaded image does not appear to contain a car. Please upload a clear photo of an automobile.</div>
                             </div>
                         </div>
 
                         <!-- RESULTS HUD -->
                         <div class="results-hud" id="resultsHud" style="display: none;">
                             <div class="hud-box highlight-box">
-                                <div class="hud-tag">VERIFIED IDENTIFICATION:</div>
+                                <div class="hud-tag">IDENTIFIED CAR MODEL:</div>
                                 <div class="hud-value-large" id="resMakeModel">MAHINDRA THAR</div>
                             </div>
 
                             <div class="hud-metric-card">
                                 <div class="metric-header">
-                                    <span class="m-label">CONFIDENCE ACCURACY:</span>
+                                    <span class="m-label">CONFIDENCE MATCH:</span>
                                     <span class="m-val" id="resConfidence">94.8%</span>
                                 </div>
                                 <div class="confidence-bar-bg">
@@ -141,10 +139,10 @@
                                 </div>
                             </div>
 
-                            <!-- REINFORCEMENT LEARNING FEEDBACK BAR WITH LIVE SEARCH -->
+                            <!-- FEEDBACK BAR WITH LIVE SEARCH -->
                             <div class="hud-box rlhf-hud-box">
-                                <div class="hud-label-glow">&gt; ACTIVE REINFORCEMENT LEARNING (RLHF):</div>
-                                <p class="rlhf-sub">Teach the AI in real time! Confirm if accurate or search &amp; select the correct car to instantly adapt neural weights.</p>
+                                <div class="hud-label-glow">&gt; FEEDBACK &amp; CORRECTION:</div>
+                                <p class="rlhf-sub">Confirm if accurate, or search and select the true car model below:</p>
                                 
                                 <div class="rlhf-btn-row">
                                     <button class="retro-btn btn-small btn-confirm" id="confirmCorrectBtn">[ 👍 CORRECT MODEL ]</button>
@@ -154,18 +152,18 @@
                                 <!-- CORRECTION PANEL WITH INSTANT SEARCH -->
                                 <div id="correctionPanel" style="display: none; margin-top: 12px; padding-top: 10px; border-top: 1px dashed #444;">
                                     <label class="hud-label">&gt; SEARCH TRUE CAR MODEL:</label>
-                                    <input type="text" id="correctionSearch" class="retro-input" placeholder="Type brand or model (e.g. Swift, Thar, Creta, Fortuner, Nexon)..." style="margin-bottom: 8px;">
+                                    <input type="text" id="correctionSearch" class="retro-input" placeholder="Type car model name (e.g. Swift, Thar, Creta, Fortuner)..." style="margin-bottom: 8px;">
                                     <select id="correctCarSelect" class="retro-select" style="margin-bottom: 8px;">
                                         <!-- Filtered dynamically -->
                                     </select>
-                                    <button class="retro-btn btn-small btn-primary" id="submitCorrectionBtn">&gt; SUBMIT &amp; ADAPT NEURAL WEIGHTS &lt;</button>
+                                    <button class="retro-btn btn-small btn-primary" id="submitCorrectionBtn">&gt; SUBMIT CORRECTION &lt;</button>
                                 </div>
                                 <div id="feedbackStatus" class="feedback-status-msg" style="display: none;"></div>
                             </div>
 
                             <!-- TOP RANKED MATCHES WITH PICTURES -->
                             <div class="hud-box">
-                                <div class="hud-label">&gt; TOP RANKED INDIAN CAR MATCHES (CLICK ANY TO CORRECT):</div>
+                                <div class="hud-label">&gt; TOP RANKED MATCHES (CLICK ANY TO SELECT):</div>
                                 <div class="top-ranks" id="topRanks">
                                     <!-- Populated dynamically with deduplicated cars -->
                                 </div>
@@ -180,10 +178,10 @@
         <section id="codex-deck" class="tab-content">
             <div class="retro-card">
                 <div class="card-header">
-                    <h2>[ INDIAN VEHICLE ENCYCLOPEDIA &amp; GALLERY (286 UNIQUE MODELS) ]</h2>
+                    <h2>[ INDIAN VEHICLE ENCYCLOPEDIA &amp; GALLERY ]</h2>
                 </div>
                 <div class="card-body">
-                    <p class="section-intro">&gt;&gt; Complete gallery of Indian car models indexed with reference images. Every model is unique and verified.</p>
+                    <p class="section-intro">&gt;&gt; Complete gallery of Indian car models indexed with reference images.</p>
                     <div class="control-field" style="margin-bottom: 20px;">
                         <input type="text" id="codexSearch" class="retro-input" placeholder=">> Search car brand or model (e.g. Swift, Thar, Creta, Fortuner, Safari, BMW, Audi)...">
                     </div>
@@ -196,7 +194,7 @@
     </main>
 
     <footer class="arcade-footer">
-        <p>&gt; POWERED BY YOLOv8 + META DINOv2 + RESNET-50 + ACTIVE REINFORCEMENT LEARNING // RTX 3050 &lt;</p>
+        <p>&gt; CYBER-DETECT // INDIAN AUTOMOBILE CLASSIFIER &lt;</p>
     </footer>
 
     <script src="/static/app.js"></script>

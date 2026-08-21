@@ -137,7 +137,7 @@ function initWebcam() {
             previewImg.style.display = 'none';
             camImg.style.display = 'none';
             if (emptyState) emptyState.style.display = 'none';
-            webcamBtn.textContent = '[ 🛑 STOP WEBCAM ]';
+            webcamBtn.textContent = '[ 🛑 STOP CAMERA ]';
         } catch (err) {
             alert('Camera access denied or unavailable: ' + err.message);
         }
@@ -279,7 +279,7 @@ async function runInference(imageBase64) {
         // 1. Check if vehicle presence check passed
         if (data.is_vehicle === false) {
             playHazardAlarm();
-            document.getElementById('noVehicleMsg').textContent = data.message || 'NO AUTOMOBILE DETECTED IN SCAN. Please upload a clear photo of an Indian car.';
+            document.getElementById('noVehicleMsg').textContent = data.message || 'NO AUTOMOBILE DETECTED IN PHOTO. Please upload a clear photo of a car.';
             noVehicleAlert.style.display = 'flex';
             document.getElementById('viewModeBar').style.display = 'none';
             return;
@@ -322,7 +322,7 @@ function renderResults(data) {
             <img src="${rank.image_url}" style="width: 75px; height: 50px; object-fit: cover; border: 1px solid #555; border-radius: 2px;" alt="${rank.model}">
             <div style="flex: 1;">
                 <div style="font-weight: bold; font-size: 14px; color: #fff;">${rank.make} ${rank.model}</div>
-                <div style="font-size: 10px; color: #888;">CLICK TO SET AS TRUE MODEL (RL UPDATE)</div>
+                <div style="font-size: 10px; color: #888;">CLICK TO SELECT THIS MODEL</div>
             </div>
             <div style="font-family: var(--font-pixel); font-size: 11px; color: #fff;">${(rank.confidence * 100).toFixed(1)}%</div>
         `;
@@ -445,7 +445,7 @@ async function submitRLFeedback(isCorrect, targetIdx) {
     const predIdx = currentPredictionResult.car_info.catalog_idx;
     const statusDiv = document.getElementById('feedbackStatus');
     statusDiv.style.display = 'block';
-    statusDiv.textContent = '>> TRANSMITTING RL UPDATE TO NEURAL MATRIX...';
+    statusDiv.textContent = '>> TRANSMITTING UPDATE...';
 
     try {
         const res = await fetch('/api/feedback', {
@@ -462,11 +462,6 @@ async function submitRLFeedback(isCorrect, targetIdx) {
         const data = await res.json();
         playBeep(980, 'square', 0.2);
         statusDiv.textContent = `>> [SUCCESS] ${data.message}`;
-        
-        const badge = document.getElementById('rlBadge');
-        if (data.rl_stats) {
-            badge.textContent = `RL REINFORCED: ${data.rl_stats.total_feedbacks} TIMES`;
-        }
 
         setTimeout(() => {
             runInference(currentImageData);
@@ -562,15 +557,13 @@ async function loadSystemInfo() {
     try {
         const res = await fetch('/api/system_info');
         const info = await res.json();
-        const gpuStatus = document.getElementById('gpuStatus');
-        if (info.cuda_available) {
-            gpuStatus.textContent = `GPU: ${info.gpu_name} (CUDA ACTIVE)`;
-        } else {
-            gpuStatus.textContent = 'CORE: ACTIVE (CLOUD CPU)';
+        const systemStatus = document.getElementById('systemStatus');
+        if (systemStatus) {
+            systemStatus.textContent = 'STATUS: ONLINE';
         }
-        document.getElementById('classCount').textContent = `CATALOG: ${info.num_classes} CARS`;
-        if (info.rl_stats && info.rl_stats.total_feedbacks > 0) {
-            document.getElementById('rlBadge').textContent = `RL REINFORCED: ${info.rl_stats.total_feedbacks} TIMES`;
+        const classCount = document.getElementById('classCount');
+        if (classCount) {
+            classCount.textContent = `CATALOG: ${info.num_classes} CARS`;
         }
     } catch (e) {}
 }
